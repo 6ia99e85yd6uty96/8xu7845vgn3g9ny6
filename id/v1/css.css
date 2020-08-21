@@ -1,0 +1,155 @@
+/* Code tidied up by ScrapBook */
+@font-face {
+  font-family: "Lora";
+  font-style: italic;
+  font-weight: 400;
+  src: local("Lora Italic"), local("Lora-Italic"), url("0QIhMX1D_JOuMw_LLPtLp_A.woff2") format("woff2");
+  unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+@font-face {
+  font-family: "Lora";
+  font-style: italic;
+  font-weight: 400;
+  src: local("Lora Italic"), local("Lora-Italic"), url("0QIhMX1D_JOuMw_LJftLp_A.woff2") format("woff2");
+  unicode-range: U+400-45F, U+490-491, U+4B0-4B1, U+2116;
+}
+@font-face {
+  font-family: "Lora";
+  font-style: italic;
+  font-weight: 400;
+  src: local("Lora Italic"), local("Lora-Italic"), url("0QIhMX1D_JOuMw_LLvtLp_A.woff2") format("woff2");
+  unicode-range: U+102-103, U+110-111, U+1EA0-1EF9, U+20AB;
+}
+@font-face {
+  font-family: "Lora";
+  font-style: italic;
+  font-weight: 400;
+  src: local("Lora Italic"), local("Lora-Italic"), url("0QIhMX1D_JOuMw_LL_tLp_A.woff2") format("woff2");
+  unicode-range: U+100-24F, U+259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: "Lora";
+  font-style: italic;
+  font-weight: 400;
+  src: local("Lora Italic"), local("Lora-Italic"), url("0QIhMX1D_JOuMw_LIftL.woff2") format("woff2");
+  unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Lora Regular"), local("Lora-Regular"), url("0QIvMX1D_JOuMwf7I-NP.woff2") format("woff2");
+  unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+@font-face {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Lora Regular"), local("Lora-Regular"), url("0QIvMX1D_JOuMw77I-NP.woff2") format("woff2");
+  unicode-range: U+400-45F, U+490-491, U+4B0-4B1, U+2116;
+}
+@font-face {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Lora Regular"), local("Lora-Regular"), url("0QIvMX1D_JOuMwX7I-NP.woff2") format("woff2");
+  unicode-range: U+102-103, U+110-111, U+1EA0-1EF9, U+20AB;
+}
+@font-face {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Lora Regular"), local("Lora-Regular"), url("0QIvMX1D_JOuMwT7I-NP.woff2") format("woff2");
+  unicode-range: U+100-24F, U+259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Lora Regular"), local("Lora-Regular"), url("0QIvMX1D_JOuMwr7Iw.woff2") format("woff2");
+  unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Lora Bold"), local("Lora-Bold"), url("0QIgMX1D_JOuO7HeNtFumsmv.woff2") format("woff2");
+  unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+@font-face {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Lora Bold"), local("Lora-Bold"), url("0QIgMX1D_JOuO7HeNthumsmv.woff2") format("woff2");
+  unicode-range: U+400-45F, U+490-491, U+4B0-4B1, U+2116;
+}
+@font-face {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Lora Bold"), local("Lora-Bold"), url("0QIgMX1D_JOuO7HeNtNumsmv.woff2") format("woff2");
+  unicode-range: U+102-103, U+110-111, U+1EA0-1EF9, U+20AB;
+}
+@font-face {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Lora Bold"), local("Lora-Bold"), url("0QIgMX1D_JOuO7HeNtJumsmv.woff2") format("woff2");
+  unicode-range: U+100-24F, U+259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Lora Bold"), local("Lora-Bold"), url("0QIgMX1D_JOuO7HeNtxumg.woff2") format("woff2");
+  unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Open Sans Bold"), local("OpenSans-Bold"), url("mem5YaGs126MiZpBA-UN7rgOX-hpOqc.woff2") format("woff2");
+  unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Open Sans Bold"), local("OpenSans-Bold"), url("mem5YaGs126MiZpBA-UN7rgOVuhpOqc.woff2") format("woff2");
+  unicode-range: U+400-45F, U+490-491, U+4B0-4B1, U+2116;
+}
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Open Sans Bold"), local("OpenSans-Bold"), url("mem5YaGs126MiZpBA-UN7rgOXuhpOqc.woff2") format("woff2");
+  unicode-range: U+1F00-1FFF;
+}
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Open Sans Bold"), local("OpenSans-Bold"), url("mem5YaGs126MiZpBA-UN7rgOUehpOqc.woff2") format("woff2");
+  unicode-range: U+370-3FF;
+}
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Open Sans Bold"), local("OpenSans-Bold"), url("mem5YaGs126MiZpBA-UN7rgOXehpOqc.woff2") format("woff2");
+  unicode-range: U+102-103, U+110-111, U+1EA0-1EF9, U+20AB;
+}
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Open Sans Bold"), local("OpenSans-Bold"), url("mem5YaGs126MiZpBA-UN7rgOXOhpOqc.woff2") format("woff2");
+  unicode-range: U+100-24F, U+259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Open Sans Bold"), local("OpenSans-Bold"), url("mem5YaGs126MiZpBA-UN7rgOUuhp.woff2") format("woff2");
+  unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}

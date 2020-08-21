@@ -1,0 +1,350 @@
+/* Code tidied up by ScrapBook */
+* { padding: 0px; margin: 0px; }
+body { font-family: Roboto; }
+section { max-width: 1980px; width: 100%; margin: 0px auto; display: block; }
+.limit { margin: 0px auto; display: block; max-width: 960px; width: 100%; }
+.logo { font-size: 60px; color: white; font-family: "Times New Roman"; }
+.logo span { display: inline-block; vertical-align: top; }
+.logo span.r { font-size: 15px; color: white; position: relative; top: 10px; }
+.up { text-transform: uppercase; }
+.line { display: block; }
+.line::before, .line::after { content: ""; display: table; width: 100%; clear: both; }
+.red { color: rgb(255, 0, 0); }
+.titleS2, .bottomTitle { text-align: center; }
+.titleS2 img, .bottomTitle img { display: inline-block; vertical-align: middle; max-width: 100px; }
+.titleS2 .text, .bottomTitle .text { display: inline-block; vertical-align: middle; text-align: left; margin-left: 10px; color: white; }
+.titleS2 .text .red, .bottomTitle .text .red { font-weight: 600; font-size: 35px; }
+.titleS2 .text p, .bottomTitle .text p { font-size: 25px; }
+.sticker { background: transparent url("sticker.png") no-repeat scroll 0% 0%; font-size: 40px; color: white; padding: 56px 30px; display: inline-block; }
+.prices { position: absolute; font-style: italic; }
+.prices .text { max-width: 81px; width: 100%; }
+.prices .count { font-size: 35px; }
+.prices .newprice { background: transparent url("newprice.png") no-repeat scroll 0% 0% / cover ; padding: 45px 0px 20px 30px; text-align: left; position: relative; top: -10px; left: 60px; }
+.prices .newprice .count { font-weight: 600; }
+.prices .oldprice { background: transparent url("oldprice.png") no-repeat scroll 0% 0% / cover ; color: white; padding: 29px 28px 23px 15px; text-align: right; }
+.prices .oldprice .text { margin: 0px 0px 0px auto; }
+.prices .oldprice .count { text-decoration: line-through; font-weight: 300; }
+.btnCont { text-align: center; }
+.btnCont a, .btnCont button { cursor: pointer; padding: 20px 75px; border-radius: 45px; border: 3px solid rgb(255, 255, 255); background: rgb(255, 0, 0) none repeat scroll 0% 0% / cover ; text-decoration: none; font-style: italic; color: white; font-weight: 600; font-size: 40px; display: inline-block; overflow: hidden; position: relative; transition: all 0.3s ease 0s; }
+.btnCont a:hover, .btnCont button:hover { background: rgb(200, 0, 0) none repeat scroll 0% 0%; }
+.btnCont a::before, .btnCont button::before { content: ""; display: block; position: absolute; width: 100%; height: 100%; border-radius: 45px; left: 0px; top: -41%; background: transparent linear-gradient(to right, rgba(255, 255, 255, 0.67) 0%, rgba(239, 1, 124, 0) 100%) repeat scroll 0% 0%; }
+.section1 { background: transparent url("b1_1.png") no-repeat scroll center top / cover ; padding-top: 40px; padding-bottom: 196px; position: relative; z-index: 10; }
+.section1 .logo { font-size: 60px; color: rgb(150, 189, 176); font-family: "Times New Roman"; }
+.section1 .logo span { display: inline-block; vertical-align: top; }
+.section1 .logo span.r { font-size: 15px; color: white; position: relative; top: 10px; }
+.section1 .btnCont { margin-top: 10px; }
+.section1 .btnCont a { background-size: cover; padding: 23px 22px; }
+.section1 .menu { float: right; position: relative; top: 20px; }
+.section1 .menu .item { display: inline-block; }
+.section1 .menu .item a { border: 1px solid rgb(156, 197, 183); display: block; padding: 5px 15px; font-size: 15px; color: white; text-decoration: none; border-radius: 15px; }
+.section1 .title { text-align: center; font-style: italic; color: white; font-weight: 600; font-size: 53px; line-height: 52px; margin-top: 30px; }
+.section1 .imageCont { text-align: center; position: relative; margin-top: 30px; }
+.section1 .imageCont .prices { top: 0px; left: 90px; }
+.section1 .imageCont .sticker { position: absolute; bottom: -40px; right: 150px; }
+.section2 { background: transparent url("b2.png") no-repeat scroll center top / cover ; margin-top: -195px; padding-top: 200px; padding-bottom: 50px; position: relative; z-index: 1; }
+.section2 .limit { position: relative; }
+.section2 .titleS2 .text { color: black; }
+.section2 .list { list-style: outside none none; display: inline-block; margin-top: 30px; }
+.section2 .list .item { max-width: 470px; width: 100%; margin-bottom: 30px; font-size: 0px; display: table; }
+.section2 .list .item::before, .section2 .list .item::after { content: ""; display: table; clear: both; width: 100%; }
+.section2 .list .item img { display: inline-block; width: 25%; vertical-align: middle; }
+.section2 .list .item .text { width: 75%; font-size: 15px; box-sizing: border-box; display: inline-block; vertical-align: middle; padding-left: 10px; }
+.section2 .list .item .text .red { font-weight: 600; font-size: 25px; line-height: 21px; margin-bottom: 10px; }
+.section2 .microscope { position: absolute; top: 170px; right: -40px; }
+.section3 { background: transparent url("b3.png") no-repeat scroll center top / cover ; padding-top: 50px; padding-bottom: 255px; margin-top: -60px; z-index: 10; position: relative; overflow: hidden; }
+.section3 .limit { position: relative; }
+.section3 .limit .man { bottom: -1006px; position: absolute; left: -300px; display: none; }
+.section3 .title { text-align: center; }
+.section3 .title img { max-width: 150px; display: inline-block; vertical-align: middle; }
+.section3 .title .text { color: white; display: inline-block; vertical-align: middle; margin-left: 30px; max-width: 450px; text-align: left; font-size: 20px; }
+.section3 .title .text .big { font-size: 45px; font-weight: 600; }
+.section4 { background: transparent url("b4.jpg") no-repeat scroll center top / cover ; padding-top: 170px; padding-bottom: 100px; margin-top: -291px; position: relative; z-index: 1; overflow: hidden; }
+.section4 .limit { position: relative; }
+.section4 .man { position: absolute; bottom: -160px; left: -501px; }
+.section4 .listCont { display: block; max-width: 450px; width: 100%; margin: 0px 0px 0px auto; }
+.section4 .listCont .title { text-align: center; font-weight: 600; font-size: 23px; }
+.section4 .listCont .list { color: white; font-style: italic; list-style: outside none none; background: transparent url("s4i1.png") no-repeat scroll center top / cover ; padding: 40px 51px 26px 70px; font-size: 17px; margin-top: 30px; }
+.section4 .listCont .list .item { position: relative; padding-left: 50px; box-sizing: border-box; margin-bottom: 40px; }
+.section4 .listCont .list .item::before { content: ""; display: block; position: absolute; top: 50%; margin-top: -18px; left: 0px; background: transparent url("check.png") repeat scroll 0% 0%; width: 37px; height: 36px; }
+.section5 { background: transparent url("b5.png") no-repeat scroll center top / cover ; padding-top: 315px; margin-top: -295px; padding-bottom: 20px; position: relative; z-index: 10; }
+.section5 .title { text-align: center; color: white; }
+.section5 .title img, .section5 .title .logo, .section5 .title .text { display: inline-block; vertical-align: middle; }
+.section5 .title img { margin: 0px 10px; }
+.section5 .title .text { font-size: 20px; max-width: 480px; text-align: left; }
+.section6 { background: transparent url("b6.jpg") no-repeat scroll center top / cover ; text-align: center; padding-bottom: 20px; }
+.section6 .list { list-style: outside none none; counter-reset: item; display: inline-block; vertical-align: middle; max-width: 605px; width: 100%; text-align: left; }
+.section6 .list .item { position: relative; background: transparent url("listBg.png") no-repeat scroll center center; margin-top: -10px; }
+.section6 .list .item::after { content: counter(item, decimal); counter-increment: item; display: block; position: absolute; top: 50%; margin-top: -47px; right: 100px; font-weight: 300; font-size: 78px; }
+.section6 .list .item .text { display: inline-block; color: white; vertical-align: middle; max-width: 285px; width: 100%; margin-left: 10px; font-size: 20px; font-style: italic; }
+.section6 .list .item .cont { border: 15px solid rgba(255, 255, 255, 0.5); border-radius: 50%; display: inline-block; vertical-align: middle; margin-left: -33px; }
+.section6 .list .item .image { display: block; width: 125px; height: 125px; text-align: center; border-radius: 50%; position: relative; }
+.section6 .list .item .image img { position: absolute; top: 50%; left: 50%; transform: translateX(-50%) translateY(-50%); }
+.section6 .list .item:nth-child(1) { margin-top: 0px; }
+.section6 .list .item:nth-child(1) .image { background: rgb(230, 4, 6) none repeat scroll 0% 0%; }
+.section6 .list .item:nth-child(1)::after { color: rgb(230, 4, 6); }
+.section6 .list .item:nth-child(2) .image { background: rgb(245, 146, 17) none repeat scroll 0% 0%; }
+.section6 .list .item:nth-child(2)::after { color: rgb(245, 146, 17); }
+.section6 .list .item:nth-child(3) .image { background: rgb(51, 117, 151) none repeat scroll 0% 0%; }
+.section6 .list .item:nth-child(3)::after { color: rgb(51, 117, 151); }
+.section6 .list .item:nth-child(4) .image { background: rgb(91, 81, 133) none repeat scroll 0% 0%; }
+.section6 .list .item:nth-child(4)::after { color: rgb(91, 81, 133); }
+.section6 .product { display: inline-block; vertical-align: middle; max-width: 240px; }
+.section7 { background: transparent url("b7.png") no-repeat scroll center top / cover ; padding-top: 40px; padding-bottom: 75px; position: relative; text-align: center; }
+.section7 .title { text-align: center; position: relative; top: 30px; z-index: 10; }
+.section7 .title div { background: rgb(230, 4, 6) none repeat scroll 0% 0%; color: white; display: inline-block; margin-bottom: 5px; font-size: 25px; font-weight: 600; padding: 10px 15px; }
+.section7 .title div.up { font-size: 40px; padding: 5px 15px; }
+.section7 .bottomTitle { margin-top: 40px; }
+.section7 .bottomTitle .up { font-weight: 600; text-transform: uppercase; }
+.section7 .bottomTitle p { text-transform: none; }
+.section7 .imageCont { color: white; font-weight: 600; font-style: italic; font-size: 22px; position: relative; display: inline-block; }
+.section7 .imageCont img { display: block; }
+.section7 .imageCont .lines { position: absolute; top: 0px; left: 0px; width: 100%; }
+.section7 .imageCont .lines .text { display: inline-block; text-align: left; }
+.section7 .imageCont .lines .text .bg { background: rgb(0, 0, 0) none repeat scroll 0% 0%; padding: 5px 10px; margin-bottom: 5px; display: inline-block; }
+.section7 .imageCont .lines .line1 { margin-top: 55px; margin-bottom: 230px; }
+.section7 .imageCont .lines .line2 { margin-bottom: 170px; }
+.section7 .imageCont .lines .line3 { margin-bottom: 50px; }
+.section7 .imageCont .lines .text2 { float: left; position: relative; left: -20px; }
+.section7 .imageCont .lines .text3 { float: right; position: relative; right: -20px; }
+.section7 .imageCont .lines .text4 { float: left; position: relative; left: -20px; }
+.section7 .imageCont .lines .text5 { text-align: right; float: right; position: relative; right: -20px; }
+.section7 .imageCont .lines .text5 .bg:first-child { position: relative; right: -5px; }
+.section7 .imageCont .lines .text6 { text-align: center; }
+.section7 .imageCont .lines .text6 .bg:last-child { position: relative; left: -2px; }
+.section8 { background: transparent url("b8.png") no-repeat scroll center top / 50% auto; text-align: center; margin-top: -240px; padding-top: 300px; padding-bottom: 230px; }
+.section8 .list .item { display: inline-block; max-width: 240px; vertical-align: top; margin: 0px 20px; }
+.section8 .list .item img { max-width: 195px; width: 100%; display: block; margin: 0px auto 15px; }
+.section8 .btnCont { margin-top: 50px; }
+.section8 .btnCont a { padding: 15px 73px; line-height: 49px; }
+.section9 { background: transparent url("b9.png") no-repeat scroll center top / cover ; margin-top: -150px; padding-bottom: 70px; position: relative; }
+.section9 .title { text-align: center; }
+.section9 .title .text { vertical-align: top; display: inline-block; color: white; text-align: left; max-width: 300px; font-size: 25px; font-weight: 100; position: relative; top: 70px; }
+.section9 .title .text .logo { font-family: Roboto; font-weight: 600; font-size: 30px; }
+.section9 .title .text .logo .r { top: 5px; }
+.section9 .title img { display: inline-block; vertical-align: top; position: relative; top: -49px; }
+.section10 { background: transparent url("b10.jpg") no-repeat scroll center top / cover ; color: white; margin-top: -295px; padding-top: 210px; padding-bottom: 230px; }
+.section10 .title { text-align: center; font-size: 23px; max-width: 750px; margin: 0px auto 20px; }
+.section10 .cont .list { display: inline-block; max-width: 325px; width: 100%; vertical-align: middle; list-style: outside none none; position: relative; }
+.section10 .cont .list .item { position: relative; margin-bottom: 10px; }
+.section10 .cont .list .item .percent { display: inline-block; vertical-align: middle; width: 75px; height: 75px; border-radius: 50%; position: relative; margin-right: 10px; }
+.section10 .cont .list .item .percent span { position: absolute; top: 50%; left: 50%; transform: translateX(-50%) translateY(-50%); }
+.section10 .cont .list .item:nth-child(1) .percent { color: rgb(142, 195, 167); border: 3px solid rgb(142, 195, 167); }
+.section10 .cont .list .item:nth-child(2) .percent { color: rgb(220, 83, 86); border: 3px solid rgb(220, 83, 86); }
+.section10 .cont .list .item:nth-child(3) .percent { color: rgb(240, 203, 105); border: 3px solid rgb(240, 203, 105); }
+.section10 .cont .list .item:nth-child(4) .percent { color: rgb(95, 183, 229); border: 3px solid rgb(95, 183, 229); }
+.section10 .cont .list .item:nth-child(5) .percent { color: rgb(171, 145, 197); border: 3px solid rgb(171, 145, 197); }
+.section10 .cont .list .item .text { vertical-align: middle; display: inline-block; width: 70%; }
+.section10 .cont .list .inscr { position: absolute; top: 100%; left: -20px; background: transparent url("inscrBg.png") no-repeat scroll center center / contain ; padding: 20px; }
+.section10 .cont .list .inscr p { font-size: 13px; position: relative; top: 11px; padding: 11px 0px; }
+.section10 .cont .graphic { display: inline-block; vertical-align: middle; }
+.section11 { background: transparent url("b11.png") no-repeat scroll center top / cover ; color: white; padding-top: 330px; padding-bottom: 150px; margin-top: -310px; text-align: center; }
+.section11 .title { text-align: center; font-weight: 600; font-size: 45px; font-style: italic; }
+.section11 .imageCont { display: inline-block; position: relative; }
+.section11 .imageCont > img { display: block; }
+.section11 .imageCont .text { text-align: left; position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; font-size: 14px; }
+.section11 .imageCont .text .title { font-size: 25px; font-style: normal; text-align: left; }
+.section11 .imageCont .text .first { position: absolute; left: 0px; top: 100px; max-width: 165px; width: 100%; }
+.section11 .imageCont .text .second { position: absolute; right: 0px; top: 0px; max-width: 215px; width: 100%; text-align: right; }
+.section11 .imageCont .text .second .title { text-align: inherit; }
+.section11 .imageCont .text .third { position: absolute; bottom: 50px; left: 0px; max-width: 185px; width: 100%; }
+.section11 .imageCont .text .fourth { position: absolute; bottom: 100px; right: 0px; max-width: 200px; width: 100%; text-align: right; }
+.section11 .imageCont .text .fourth .title { text-align: inherit; }
+.section12 { background: transparent url("b12.png") no-repeat scroll center top / cover ; margin-top: -155px; padding-top: 100px; padding-bottom: 206px; }
+.section12 .title { text-align: center; font-weight: 600; font-size: 45px; font-style: italic; color: white; margin-bottom: 50px; }
+.section12 .expert { background: rgba(255, 255, 255, 0.5) none repeat scroll 0% 0%; border-radius: 100px 10px; color: white; padding: 10px; box-sizing: border-box; position: relative; margin-bottom: 40px; text-align: justify; width: 95%; }
+.section12 .expert .shadow { position: absolute; top: -10px; left: 0px; z-index: 1; width: 100%; height: 100%; background: rgba(92, 156, 135, 0.3) none repeat scroll 0% 0%; border-radius: 100px 10px; }
+.section12 .expert .shadowParent { z-index: 2; position: relative; }
+.section12 .expert p { font-style: italic; }
+.section12 .expert p.author { margin-top: 20px; font-style: normal; font-weight: 600; }
+.section12 .expert::before, .section12 .expert::after { content: ""; display: table; width: 100%; clear: both; }
+.section12 .expert:nth-child(2) .text { padding-left: 240px; box-sizing: border-box; width: 100%; }
+.section12 .expert:nth-child(2) img { float: left; }
+.section12 .expert:nth-child(3) { margin: 0px 0px 0px auto; background: rgba(92, 156, 135, 0.5) none repeat scroll 0% 0%; padding: 20px 20px 20px 10px; border-radius: 10px 100px; }
+.section12 .expert:nth-child(3) .shadow { border-radius: 10px 100px; }
+.section12 .expert:nth-child(3) .text { padding-right: 240px; box-sizing: border-box; width: 100%; }
+.section12 .expert:nth-child(3) .text .author { text-align: right; }
+.section12 .expert:nth-child(3) img { float: right; }
+.section13 { background: white none repeat scroll 0% 0%; }
+.section13 .title { text-align: center; font-weight: 600; font-size: 45px; font-style: italic; color: black; margin-bottom: 50px; }
+.section13 .sliderCont { display: block; position: relative; }
+.section13 .sliderCont .sliderArrows { position: absolute; top: 50%; margin-top: -63px; width: 100%; left: 0px; }
+.section13 .sliderCont .sliderArrows .arrLeft { float: left; position: relative; left: -55px; cursor: pointer; }
+.section13 .sliderCont .sliderArrows .arrRight { float: right; position: relative; right: -55px; cursor: pointer; }
+.section13 .sliderCont .slider { text-align: center; }
+.section13 .sliderCont .slider .slide { outline: medium none; display: inline-block; vertical-align: top; text-align: justify; margin: 0px 30px; padding-top: 10px; }
+.section13 .sliderCont .slider .slide .top { margin-bottom: 20px; }
+.section13 .sliderCont .slider .slide .top .imageCont { display: inline-block; position: relative; vertical-align: bottom; margin-left: 10px; }
+.section13 .sliderCont .slider .slide .top .imageCont::before, .section13 .sliderCont .slider .slide .top .imageCont::after { content: ""; display: block; position: absolute; width: 100%; height: 100%; border-radius: 35px 5px; }
+.section13 .sliderCont .slider .slide .top .imageCont::before { top: -10px; left: -10px; background: rgb(190, 215, 207) none repeat scroll 0% 0%; }
+.section13 .sliderCont .slider .slide .top .imageCont::after { top: 10px; left: 10px; background: rgb(222, 235, 231) none repeat scroll 0% 0%; }
+.section13 .sliderCont .slider .slide .top .imageCont img { max-width: 140px; width: 100%; display: block; position: relative; z-index: 10; }
+.section13 .sliderCont .slider .slide .top .quote { display: inline-block; vertical-align: bottom; margin-left: 10px; position: relative; top: 25px; }
+.section13 .sliderCont .slider .slide .bottom .author { margin-bottom: 15px; }
+.section13 .sliderCont .slider .slide .bottom .author .name { font-weight: 600; }
+.section13 .sliderCont .slider .slide .bottom .author .country { font-weight: 100; }
+.section14 { background: transparent url("b14.png") no-repeat scroll center top / cover ; padding-top: 100px; padding-bottom: 100px; margin-top: 50px; }
+.section14 .title { text-align: center; }
+.section14 .subtitle { text-align: center; color: white; font-size: 25px; font-weight: 100; max-width: 300px; margin: 0px auto; }
+.section14 .line { background: rgba(0, 0, 0, 0.3) none repeat scroll 0% 0%; border-radius: 65px 0px; padding: 0px 30px; box-sizing: border-box; position: relative; margin-top: 100px; }
+.section14 .line::before, .section14 .line::after { content: ""; display: block; position: absolute; width: 100%; height: 100%; border-radius: 65px 0px; background: rgba(0, 0, 0, 0.2) none repeat scroll 0% 0%; }
+.section14 .line::before { top: 10px; left: -10px; }
+.section14 .line::after { top: -10px; left: 10px; }
+.section14 .line .product, .section14 .line .centerPart, .section14 .line form { display: inline-block; vertical-align: middle; position: relative; z-index: 10; }
+.section14 .line .product { position: absolute; max-width: 200px; }
+.section14 .line .centerPart { padding-left: 256px; box-sizing: border-box; }
+.section14 .line .centerPart .sticker { display: block; max-width: 160px; width: 100%; box-sizing: border-box; margin: -50px auto 0px; }
+.section14 .line .centerPart .prices { position: relative; }
+.section14 .line .centerPart .prices .oldprice { margin-left: 100px; }
+.section14 .line .centerPart .prices .newprice { color: rgb(255, 0, 0); max-width: 135px; left: 20px; padding: 24px 0px 19px 20px; }
+.section14 form { max-width: 265px; width: 100%; margin-left: 50px; }
+.section14 form * { display: block; box-sizing: border-box; }
+.section14 form select, .section14 form input { width: 100%; max-width: 235px; margin: 15px auto; padding: 15px 30px; }
+.section14 form .btnCont { max-width: 265px; margin: 0px auto; display: block; width: 100%; }
+.section14 form button { outline: medium none; text-align: center; background-size: contain; width: 100%; padding: 11px 38px; line-height: 45px; }
+.section14 form .arrow { position: absolute; bottom: 27px; right: -73px; }
+.section14 .product { top: -60px; }
+.manWithoutShadow { display: none; }
+.section10 .mobileText { display: none; }
+.section11 .limit { position: relative; }
+.section11 .mobile { display: none; }
+.section11 .imageCont > img { z-index: 2; position: relative; }
+.section11 .product.mobile { max-width: 350px; width: 100%; z-index: 1; display: block; position: absolute; top: 50%; left: 50%; transform: translateX(-50%) translateY(-50%); }
+@media screen and (max-width: 1065px) {
+  .section2 .microscope { display: none; }
+  .manWithoutShadow { display: block; max-width: 440px; width: 100%; margin: 0px auto; }
+  .section2 { background: transparent none repeat scroll 0% 0%; }
+  .section2 .list { display: block; margin: 30px auto 0px; max-width: 470px; padding: 0px 10px; box-sizing: border-box; }
+  .section3, .section4 { background: transparent none repeat scroll 0% 0%; }
+  .section3 .man, .section4 .man { display: none; }
+  .section3 { padding-bottom: 150px; }
+  .section3 .title img { display: block; margin: 0px auto; }
+  .section3 .title .text { text-align: center; }
+  .section4 .listCont { margin: 0px auto; }
+  .section4 .listCont .title { display: none; }
+  .section4 .listCont .list { margin-top: 0px; }
+  .section4 { padding-bottom: 65px; }
+  .mobileBgS3 { background: transparent linear-gradient(to bottom, rgb(46, 45, 44) 0%, rgb(149, 149, 149) 100%) repeat scroll 0% 0%; }
+  .titleS2 img { display: block; margin: 0px auto; }
+  .titleS2 .text { text-align: center; }
+}
+@media screen and (max-width: 1000px) {
+  .section13 .sliderCont .slider .slide { text-align: left; }
+  .section1 { text-align: center; }
+  .section1 .menu { display: none; }
+  .section1 .logo { text-align: center; }
+  .section1 .title { max-width: 320px; width: 100%; font-size: 20px; line-height: 29px; margin: 10px auto; padding: 0px 10px; box-sizing: border-box; }
+  .section1 .imageCont { display: inline-block; }
+  .section1 .imageCont .product { max-width: 320px; width: 100%; }
+  .section1 .imageCont .prices { left: -23px; top: -25px; }
+  .section1 .imageCont .prices .oldprice { padding: 17px 19px 18px 27px; }
+  .section1 .imageCont .prices .oldprice .count { font-size: 18px; }
+  .section1 .imageCont .prices .newprice { top: -9px; left: 20px; padding: 20px 8px 10px 19px; }
+  .section1 .imageCont .prices .newprice .count { font-size: 27px; }
+  .section1 .imageCont .sticker { bottom: 50px; right: 0px; }
+  .section5 { margin-top: -310px; }
+  .section5 .title .logo { display: block; }
+  .section5 .title img { display: none; }
+  .section5 .title .text { text-align: center; display: block; margin: 20px auto 0px; max-width: 350px; padding: 0px 10px; }
+  .section6 .product { display: block; margin: 0px auto; }
+  .section7 { padding-bottom: 25px; }
+  .section7 .imageCont { font-size: 14px; }
+  .section7 .imageCont img { display: block; width: 100%; max-width: 425px; }
+  .section7 .imageCont .lines .line1 { margin-bottom: 80px; }
+  .section7 .imageCont .lines .line2 { margin-bottom: 80px; }
+  .section7 .imageCont .lines .line3 { margin-bottom: 5px; }
+  .section9 .title img { max-width: 365px; width: 100%; top: -43px; }
+  .section9 .title .text { display: none; }
+  .section10 .mobileText { display: block; color: white; max-width: 250px; margin: 0px auto; }
+  .section10 .mobileText p { font-size: 23px; font-weight: 100; }
+  .section10 .mobileText .logo { font-family: Roboto; font-size: 30px; font-weight: 600; }
+  .section10 .mobileText .logo .r { top: 5px; }
+  .section10 .title { text-align: center; color: rgb(142, 195, 167); max-width: 350px; margin: 0px auto; font-size: 16px; }
+  .section10 .cont .graphic { display: none; }
+  .section10 .cont .list { display: block; margin: 30px auto; }
+  .section11 { margin-top: -435px; padding-top: 370px; padding-bottom: 220px; }
+  .section11 .title { font-size: 35px; max-width: 330px; margin: 0px auto; }
+  .section11 .imageCont > img { display: none; }
+  .section11 .imageCont .text { position: relative; }
+  .section11 .imageCont .text .first, .section11 .imageCont .text .second, .section11 .imageCont .text .third, .section11 .imageCont .text .fourth { position: relative; top: auto; left: auto; right: auto; bottom: auto; text-align: center; margin: 0px auto 20px; }
+  .section11 .imageCont .text .first .title, .section11 .imageCont .text .second .title, .section11 .imageCont .text .third .title, .section11 .imageCont .text .fourth .title { text-align: center; }
+  .section11 .mobile { display: block; margin: 0px auto 5px; }
+  .section11 .product.mobile { max-width: 225px; position: static; width: 100%; transform: translateX(0px) translateY(0px); }
+  .section12 { margin-top: -250px; padding-top: 120px; }
+  .section12 .title { font-size: 26px; }
+  .section12 .expert:nth-child(3) { padding: 20px 20px 20px 10px; }
+  .section12 .expert { max-width: 320px; width: 100%; margin: 0px auto 20px ! important; text-align: left; }
+  .section12 .expert:nth-child(3) p.author { padding-right: 0px; }
+  .section12 .expert p.author { padding-right: 40px; text-align: left; }
+  .section12 .expert img { float: none ! important; display: block; margin: 10px auto; }
+  .section12 .expert .text { padding: 0px ! important; }
+  .section14 .line { background: transparent none repeat scroll 0% 0%; text-align: center; }
+  .section14 .line .product { display: inline-block; position: relative; }
+  .section14 .line .centerPart { padding: 0px; }
+  .section14 .line::before, .section14 .line::after { content: none; }
+  .section14 form .arrow { display: none; }
+}
+@media screen and (max-width: 670px) {
+  .section6 { padding-bottom: 0px; }
+  .section6 .product { max-width: 150px; margin-top: 60px; }
+  .section6 .list { max-width: 320px; }
+  .section6 .list .item { background-size: contain; }
+  .section6 .list .item::after { font-size: 41px; right: 20px; margin-top: -26px; }
+  .section6 .list .item .image { width: 85px; height: 85px; }
+  .section6 .list .item .image img { max-width: 45px; }
+  .section6 .list .item .text { max-width: 210px; font-size: 13px; padding-right: 25px; box-sizing: border-box; }
+}
+@media screen and (max-width: 660px) {
+  .section8 .btnCont { margin-top: 10px; }
+  .section8 .btnCont a { padding: 0px 30px; background-size: contain; font-size: 20px; }
+}
+@media screen and (max-width: 640px) {
+  .section14 .line .product { max-width: 120px; width: 100%; }
+  .section14 .line .centerPart { margin-left: -95px; }
+  .section14 .line .centerPart .prices .newprice { padding: 29px 0px 21px 31px; max-width: 105px; }
+  .section14 .line .centerPart .prices .oldprice { padding: 19px 24px 22px 32px; margin-left: 65px; }
+  .section14 .line .centerPart .prices .oldprice .count, .section14 .line .centerPart .prices .newprice .count { font-size: 18px; }
+  .section14 .line form { display: block; margin: 0px auto; }
+  .section14 .line .sticker { background-size: contain; max-width: 127px ! important; padding: 45px 29px; font-size: 29px; }
+  .section1 .btnCont a { background-repeat: no-repeat; padding: 13px 30px; font-size: 18px; background-size: contain; }
+}
+@media screen and (max-width: 560px) {
+  .section8 .list .item img { margin: 0px auto 5px; }
+  .section8 .list .item { margin-bottom: 15px; }
+}
+@media screen and (max-width: 495px) {
+  .section7 .imageCont .lines .line3 { margin-bottom: 50px; }
+  .section7 .imageCont { font-size: 10px; }
+  .section7 .bottomTitle { text-align: center; }
+  .section7 .bottomTitle img { display: block; margin: 0px auto; max-width: 75px; }
+  .section7 .bottomTitle .text { text-align: center; margin: 0px; }
+  .section7 .imageCont .lines .text2 { left: 0px; }
+  .section7 .imageCont .lines .text3 { right: 0px; }
+  .section7 .imageCont .lines .text4 { left: 0px; }
+  .section7 .imageCont .lines .text5 { right: 0px; }
+  .section7 .imageCont .lines .text5 .bg:first-child { right: 0px; }
+}
+@media screen and (max-width: 410px) {
+  .section7 .bottomTitle { padding-bottom: 20px; }
+  .section7 .imageCont .lines .line1 { margin-bottom: 35px; }
+  .section7 .bottomTitle img { max-width: 50px; }
+  .section7 .bottomTitle .text { font-size: 20px ! important; }
+  .section7 .bottomTitle .text .up { font-size: 20px ! important; }
+  .section7 .bottomTitle .text p { font-size: 20px ! important; }
+}
+@media screen and (max-width: 350px) {
+  .section7 .imageCont .lines .line2 { margin-bottom: 35px; }
+}
+@media screen and (max-width: 375px) {
+  .section1 .btnCont a { padding: 12px 24px; background-size: contain; }
+  .section3 .title .text { margin: 0px; font-size: 20px; }
+  .section4 .listCont .list { padding: 40px 25px 26px 37px; }
+  .section10 .cont .list .inscr { left: 0px; }
+  .section11 .title { padding: 0px 10px; }
+}
+@media screen and (max-width: 340px) {
+  .section6 .list .item::after { font-size: 30px; right: 12px; margin-top: -20px; }
+  .section6 .list .item .text { max-width: 200px; margin-left: 0px; }
+  .section6 .list .item .cont { margin-left: 5px; }
+  .section6 .list .item .image { width: 70px; height: 70px; }
+  .section14 form button { padding: 12px 38px; line-height: 43px; }
+}

@@ -1,0 +1,644 @@
+/* Code tidied up by ScrapBook */
+.container { max-width: 100%; margin: auto; min-height: 100px; overflow: hidden; }
+.wrapper { max-width: 1160px; width: 100%; margin: auto; min-height: 1px; overflow: hidden; }
+* { box-sizing: border-box; }
+h1, h2, h3, h4, p { margin: 0px; padding: 0px; }
+.w100 { width: 100%; float: left; }
+a { cursor: pointer; }
+.block1 { width: 100%; float: left; min-height: 843px; background: transparent url("block1.png") no-repeat scroll center top 147px; border-bottom: 13px solid rgb(165, 205, 57); }
+.block1 .top-block { width: 100%; float: left; margin-top: 32px; position: relative; }
+.block1 .top-block .item { max-width: 298px; width: 100%; float: left; }
+.block1 .top-block .item .iimage { max-width: 67px; width: 100%; float: left; }
+.block1 .top-block .item .itext { max-width: 185px; width: 100%; float: left; font-family: SFUIDisplay-Regular; font-size: 15px; line-height: 19px; color: rgb(35, 31, 32); margin-top: 3px; }
+.block1 .top-block .item .itext .big { font-size: 25px; display: inline-block; line-height: 20px; }
+.block1 .top-block .item .itext a { color: rgb(165, 205, 57); font-family: SFUIDisplay-Bold; text-decoration: underline; }
+.block1 .top-block .item:nth-of-type(1) .itext { padding-right: 25px; }
+.block1 .top-block .arrow { max-width: 59px; width: 100%; float: left; position: absolute; margin-left: 822px; margin-top: 32px; }
+.block1 .top-block .button-block { max-width: 266px; width: 100%; float: right; }
+.block1 .top-block .button-block button { width: 100%; float: left; height: 50px; background: rgb(165, 205, 57) none repeat scroll 0% 0%; font-family: SFUIDisplay-Bold; font-size: 16px; line-height: 22px; color: rgb(255, 255, 255); border: medium none; outline: 0px none; border-radius: 5px; }
+.block1 .top-block .button-block button:hover { background: rgb(255, 255, 255) none repeat scroll 0% 0%; color: rgb(165, 205, 57); border: 1px solid rgb(165, 205, 57); }
+.block1 .title { width: 100%; float: left; margin-top: 50px; font-family: Lora; font-size: 40px; line-height: 44px; font-weight: 700; color: rgb(35, 31, 32); text-align: center; padding: 0px 145px 10px; background: url("line-2.png") no-repeat scroll left 280px bottom 3px, transparent url("line-1.png") no-repeat scroll right 170px top 44px; }
+.block1 .left-block { max-width: 390px; width: 100%; float: left; margin-top: 95px; }
+.block1 .left-block .item-block { width: 100%; float: left; }
+.block1 .left-block .item-block .item { width: 100%; float: left; margin-top: 35px; padding-left: 70px; background: transparent url("icon-4.png") no-repeat scroll left top; font-family: Lora; font-size: 20px; line-height: 24px; color: rgb(35, 31, 32); }
+.block1 .left-block .item-block .item .bold { font-weight: 700; }
+.block1 .left-block .item-block .item:nth-child(4) { margin-top: 15px; }
+.block1 .left-block .item-block .sertificate { max-width: 265px; width: 100%; float: left; margin-top: 75px; margin-left: 35px; padding-left: 35px; background: transparent url("icon-5.png") no-repeat scroll left top; font-family: SFUIDisplay-Bold; font-size: 12px; line-height: 17px; color: rgb(35, 31, 32); }
+.block1 .central-block { max-width: 409px; width: 100%; float: left; }
+.block1 .central-block .product { max-width: 553px; width: 100%; float: left; margin-left: 0px; margin-top: 118px; text-align: center; }
+.block1 .central-block .product img { max-width: 190px; width: 100%; }
+.block1 .central-block .label { max-width: 159px; width: 100%; height: 159px; float: left; margin-left: -312px; margin-top: 0px; background: rgb(239, 22, 80) none repeat scroll 0% 0%; text-align: center; border-radius: 90px; }
+.block1 .central-block .label .ltext { width: 100%; float: left; margin-top: 25px; font-family: SFUIDisplay-Bold; font-size: 20px; line-height: 24px; color: rgb(255, 255, 255); }
+.block1 .central-block .label .ltext .big { font-size: 61px; line-height: 61px; display: block; font-family: SFUIDisplay-Heavy; }
+.block1 .right-block { max-width: 360px; width: 100%; float: left; }
+.block1 .right-block .form-block { width: 100%; float: left; margin-top: 45px; height: auto; border-radius: 5px; border: 4px solid rgb(165, 205, 57); padding: 0px 15px 20px; }
+.block1 .right-block .form-block .rtitle { width: 100%; float: left; margin-top: 22px; font-family: Lora; font-size: 25px; line-height: 29px; color: rgb(35, 31, 32); text-align: center; }
+.block1 .right-block .form-block .timer { width: 100%; float: left; margin-top: 15px; background: rgb(21, 40, 56) none repeat scroll 0% 0%; height: 46px; border-radius: 3px; }
+.block1 .right-block .form-block .timer .timer-text { max-width: 185px; width: 100%; float: left; font-family: SFUIDisplay-Light; font-size: 14px; line-height: 46px; color: rgb(255, 255, 255); text-align: center; margin-left: 34px; }
+.block1 .right-block .form-block .timer .timer-block { max-width: 96px; width: 100%; float: left; font-family: SFUIDisplay-Bold; font-size: 20px; line-height: 46px; color: rgb(255, 255, 255); }
+.block1 .right-block .form-block .timer .timer-block .item { float: left; }
+.block1 .right-block .form-block .timer .timer-block .delimiter { float: left; }
+.block1 .right-block .form-block .price-block { width: 100%; float: left; margin-top: 15px; }
+.block1 .right-block .form-block .price-block .price { max-width: 50%; width: 100%; float: left; }
+.block1 .right-block .form-block .price-block .price .ptext { width: 100%; float: left; font-family: SFUIDisplay-Light; font-size: 19px; line-height: 25px; color: rgb(23, 27, 38); }
+.block1 .right-block .form-block .price-block .price .value { width: 100%; float: left; font-family: SFUIDisplay-Thin; font-size: 31px; line-height: 34px; color: rgb(23, 27, 38); }
+.block1 .right-block .form-block .price-block .old .value { background: transparent url("crossline.png") no-repeat scroll left top; }
+.block1 .right-block .form-block .price-block .new .value { font-family: SFUIDisplay-Heavy; color: rgb(239, 22, 80); }
+.block1 .right-block .form-block .form { width: 100%; float: left; margin-top: 10px; }
+.block1 .right-block .form-block .form .inp-line { width: 100%; float: left; margin-top: 7px; }
+.block1 .right-block .form-block .form .inp-line input { width: 100%; float: left; outline: 0px none; height: 49px; background: transparent none repeat scroll 0px 0px; border: 1px solid rgb(0, 0, 0); border-radius: 5px; font-family: Arial; color: rgb(78, 77, 81); padding: 0px 20px 0px 58px; font-size: 17px; line-height: 49px; }
+.block1 .right-block .form-block .form .inp-name { background: transparent url("icon-name.png") no-repeat scroll left 19px center; }
+.block1 .right-block .form-block .form .inp-phone { background: transparent url("icon-phone.png") no-repeat scroll left 19px center; }
+.block1 .right-block .form-block .form .inp-email { background: transparent url("icon-email.png") no-repeat scroll left 19px center; }
+.block1 .right-block .form-block .form .button-block { width: 100%; float: left; margin-top: 7px; }
+.block1 .right-block .form-block .form .button-block button { width: 100%; float: left; height: 56px; border: medium none; outline: 0px none; background: rgb(165, 205, 57) none repeat scroll 0% 0%; border-radius: 5px; font-family: "Open Sans"; font-size: 16px; line-height: 52px; color: rgb(255, 255, 255); font-weight: 700; box-shadow: 0px 4px 0px 0px rgb(132, 168, 35); text-transform: uppercase; }
+.block1 .right-block .form-block .form .button-block button:hover { box-shadow: 0px 2px 0px 0px rgb(132, 168, 35); margin-top: 2px; }
+.block1 .right-block .form-block .form .button-block button:active { box-shadow: none; margin-top: 4px; }
+.block1 .right-block .textline { width: 100%; float: left; margin-top: 33px; padding-left: 55px; font-family: SFUIDisplay-Bold; font-size: 12px; line-height: 23px; color: rgb(35, 31, 32); text-transform: uppercase; background: transparent url("icon-lock.png") no-repeat scroll left 22px center; }
+.block2 { width: 100%; float: left; min-height: 593px; padding-bottom: 25px; }
+.block2 .test-block { width: 100%; float: left; }
+.block2 .test-block .title { width: 100%; float: left; margin-top: 46px; font-family: Lora; font-size: 40px; line-height: 44px; color: rgb(35, 31, 32); font-weight: 700; text-align: center; padding: 0px 130px; }
+.block2 .test-block .left-block { max-width: 345px; width: 100%; float: left; height: 367px; background: transparent url("form-1.png") no-repeat scroll left top; margin-top: 48px; padding-left: 25px; padding-right: 108px; }
+.block2 .test-block .left-block .ltitle { width: 100%; float: left; margin-top: 23px; font-family: Lora; font-size: 30px; line-height: 34px; color: rgb(35, 31, 32); font-weight: 700; }
+.block2 .test-block .left-block .ltext { width: 100%; float: left; margin-top: 10px; font-family: SFUIDisplay-Light; font-size: 20px; line-height: 24px; color: rgb(42, 18, 15); padding-top: 20px; border-top: 5px solid rgb(42, 18, 15); }
+.block2 .test-block .left-block .button-block { width: 100%; float: left; margin-top: 30px; }
+.block2 .test-block .left-block .button-block button { width: 100%; float: left; height: 63px; border: medium none; outline: 0px none; background: rgb(42, 18, 15) none repeat scroll 0% 0%; border-radius: 3px; font-family: "Open Sans"; font-size: 16px; line-height: 60px; color: rgb(255, 255, 255); font-weight: 700; text-transform: uppercase; }
+.block2 .test-block .right-block { max-width: 805px; width: 100%; float: left; margin-left: 10px; margin-top: 20px; }
+.block2 .test-block .right-block .item { max-width: 115px; width: 100%; float: left; height: 182px; margin-left: 19px; margin-top: 20px; }
+.block2 .test-block .right-block .item .iimage { width: 100%; float: left; height: 122px; padding-top: 7px; }
+.block2 .test-block .right-block .item .itext { width: 100%; float: left; font-family: SFUIDisplay-Light; font-size: 15px; line-height: 19px; color: rgb(42, 18, 15); }
+.block2 .test-block .right-block .item:hover { cursor: pointer; }
+.block2 .test-block .right-block .item.chosen .iimage { padding-top: 0px; }
+.block2 .test-block .right-block .item.chosen .iimage img { display: none; }
+.block2 .test-block .right-block .item.cl_1.chosen { background: transparent url("choice-1-a.png") no-repeat scroll left top; }
+.block2 .test-block .right-block .item.cl_2.chosen { background: transparent url("choice-2-a.png") no-repeat scroll left top; }
+.block2 .test-block .right-block .item.cl_3.chosen { background: transparent url("choice-3-a.png") no-repeat scroll left top; }
+.block2 .test-block .right-block .item.cl_4.chosen { background: transparent url("choice-4-a.png") no-repeat scroll left top; }
+.block2 .test-block .right-block .item.cl_5.chosen { background: transparent url("choice-5-a.png") no-repeat scroll left top; }
+.block2 .test-block .right-block .item.cl_6.chosen { background: transparent url("choice-6-a.png") no-repeat scroll left top; }
+.block2 .test-block .right-block .item.cl_7.chosen { background: transparent url("choice-7-a.png") no-repeat scroll left top; }
+.block2 .test-block .right-block .item.cl_8.chosen { background: transparent url("choice-8-a.png") no-repeat scroll left top; }
+.block2 .test-block .right-block .item.cl_9.chosen { background: transparent url("choice-9-a.png") no-repeat scroll left top; }
+.block2 .test-block .right-block .item.cl_10.chosen { background: transparent url("choice-10-a.png") no-repeat scroll left top; }
+.block2 .test-block .right-block .item.cl_11.chosen { background: transparent url("choice-11-a.png") no-repeat scroll left top; }
+.block2 .test-block .right-block .item.cl_12.chosen { background: transparent url("choice-12-a.png") no-repeat scroll left top; }
+.block2 .result-block { width: 100%; display: none; max-width: 1160px; margin: 0px auto; }
+.block2 .result-block .title { width: 100%; float: left; margin-top: 46px; font-family: Lora; font-size: 40px; line-height: 44px; color: rgb(35, 31, 32); font-weight: 700; text-align: center; padding: 0px 60px; text-transform: uppercase; }
+.block2 .result-block .left-block { max-width: 345px; width: 100%; float: left; height: 367px; background: transparent url("form-1.png") no-repeat scroll left top; margin-top: 48px; padding-left: 25px; padding-right: 108px; position: relative; z-index: 2; }
+.block2 .result-block .left-block .ltitle { width: 100%; float: left; margin-top: 23px; font-family: Lora; font-size: 30px; line-height: 34px; color: rgb(35, 31, 32); font-weight: 700; }
+.block2 .result-block .left-block .ltext { width: 100%; float: left; margin-top: 10px; font-family: SFUIDisplay-Light; font-size: 20px; line-height: 24px; color: rgb(42, 18, 15); padding-top: 20px; border-top: 5px solid rgb(42, 18, 15); }
+.block2 .result-block .left-block .button-block { width: 100%; float: left; margin-top: 140px; }
+.block2 .result-block .left-block .button-block button { width: 100%; float: left; height: 63px; border: medium none; outline: 0px none; background: rgb(42, 18, 15) none repeat scroll 0% 0%; border-radius: 3px; font-family: "Open Sans"; font-size: 16px; line-height: 60px; color: rgb(255, 255, 255); font-weight: 700; text-transform: uppercase; }
+.block2 .result-block .right-block { max-width: 863px; width: 100%; float: left; height: 366px; background: rgb(239, 22, 80) none repeat scroll 0% 0%; margin-left: -48px; margin-top: 48px; padding-left: 72px; position: relative; }
+.block2 .result-block .right-block .rtitle { width: 100%; float: left; margin-top: 33px; font-family: Lora; font-size: 50px; line-height: 54px; color: rgb(255, 255, 255); font-weight: 700; }
+.block2 .result-block .right-block .rtext { width: 100%; float: left; margin-top: 20px; font-family: SFUIDisplay-Light; font-size: 20px; line-height: 24px; color: rgb(255, 255, 255); padding-right: 65px; }
+.block2 .result-block .right-block .textline { max-width: 635px; width: 100%; float: left; margin-top: 17px; padding: 7px 12px; font-family: SFUIDisplay-Light; font-size: 20px; line-height: 24px; color: rgb(255, 255, 255); background: rgb(170, 0, 45) none repeat scroll 0% 0%; border-radius: 3px; }
+.block2 .result-block .right-block .bottom-line { width: 100%; float: left; margin-top: 10px; }
+.block2 .result-block .right-block .bottom-line .bleft { max-width: 315px; width: 100%; float: left; margin-top: 15px; font-family: SFUIDisplay-Regular; font-size: 20px; line-height: 24px; color: rgb(42, 18, 15); }
+.block2 .result-block .right-block .bottom-line .bright { max-width: 320px; width: 100%; float: left; }
+.block2 .result-block .right-block .bottom-line .bright button { width: 100%; float: left; margin-top: 10px; height: 56px; border: medium none; outline: 0px none; background: rgb(165, 205, 57) none repeat scroll 0% 0%; border-radius: 5px; font-family: "Open Sans"; font-size: 16px; line-height: 52px; color: rgb(255, 255, 255); font-weight: 700; box-shadow: 0px 4px 0px 0px rgb(132, 168, 35); text-transform: uppercase; }
+.block2 .result-block .right-block .bottom-line .bright button img { margin-top: -11px; float: right; margin-right: 7px; }
+.block2 .result-block .right-block .bottom-line .bright button:hover { box-shadow: 0px 2px 0px 0px rgb(132, 168, 35); margin-top: 12px; }
+.block2 .result-block .right-block .bottom-line .bright button:active { box-shadow: none; margin-top: 14px; }
+.block2 .result-block .right-block .corner { max-width: 79px; width: 100%; float: left; height: 80px; background: transparent url("corner.png") no-repeat scroll left top; position: absolute; bottom: 0px; right: 0px; }
+.block2 .result-block .right-block .corner .ctext { width: 100%; float: left; margin-top: 34px; text-align: center; font-family: "Open Sans"; font-size: 7px; line-height: 11px; color: rgb(255, 255, 255); font-weight: 700; padding-left: 25px; }
+.block2 .result-block .right-block .corner .ctext .big { display: block; font-size: 30px; line-height: 30px; }
+.block3 { width: 100%; float: left; min-height: 1475px; background: transparent url("block3.jpg") no-repeat scroll center top; }
+.block3 .title { width: 100%; float: left; margin-top: -3px; font-family: ProximaNova-Black; font-size: 67px; line-height: 72px; color: rgb(0, 0, 0); padding: 0px 200px; text-align: center; }
+.block3 .subtitle { width: 100%; float: left; margin-top: 90px; font-family: Lora; font-size: 30px; line-height: 34px; color: rgb(255, 255, 255); font-weight: 700; text-align: center; padding: 0px 180px; }
+.block3 .item-block { width: 100%; float: left; margin-top: 50px; background: transparent url("line-3.png") no-repeat scroll center top 45px; }
+.block3 .item-block .ibtitle { width: 100%; float: left; font-family: Lora; font-size: 30px; line-height: 34px; color: red; font-weight: 700; text-align: center; margin-top: 8px; }
+.block3 .item-block .ibtitle .big { display: block; font-family: ProximaNova-Bold; font-size: 80px; line-height: 60px; }
+.block3 .item-block .item { max-width: 300px; width: 100%; display: inline-block; float: left; margin-left: 80px; margin-top: 30px; }
+.block3 .item-block .item .iimage { width: 100%; float: left; text-align: center; }
+.block3 .item-block .item .ititle { width: 100%; float: left; margin-top: 30px; min-height: 90px; border-bottom: 5px solid rgb(255, 255, 255); font-family: Lora; font-size: 30px; line-height: 34px; color: rgb(255, 255, 255); padding-right: 10px; }
+.block3 .item-block .item .itext { width: 100%; float: left; margin-top: 15px; font-family: SFUIDisplay-Regular; font-size: 16px; line-height: 20px; color: red; }
+.block3 .item-block .item .sympthoms { width: 100%; float: left; margin-top: 5px; font-family: SFUIDisplay-Regular; font-size: 16px; line-height: 22px; color: rgb(255, 255, 255); }
+.block3 .item-block .item .sympthoms .symp { display: inline-block; float: left; padding: 0px 10px; background: red none repeat scroll 0% 0%; border-radius: 3px; margin: 0px 4px; }
+.block3 .item-block .item .sympthoms .symp:nth-child(1) { margin-left: 0px; }
+.block3 .item-block .item:nth-child(2) { margin-left: 50px; }
+.block3 .bottom-block { max-width: 1044px; width: 100%; float: left; margin: 52px 58px 0px; }
+.block3 .bottom-block .left-block { max-width: 641px; width: 100%; float: left; height: 367px; background: transparent url("form-2.png") no-repeat scroll left top; position: relative; z-index: 2; padding-left: 28px; }
+.block3 .bottom-block .left-block .ltitle { max-width: 505px; width: 100%; float: left; margin-top: 33px; font-family: Lora; font-size: 40px; line-height: 44px; color: rgb(35, 31, 32); font-weight: 700; }
+.block3 .bottom-block .left-block .line { max-width: 270px; width: 100%; float: left; margin-top: 18px; height: 5px; background: rgb(42, 18, 15) none repeat scroll 0% 0%; }
+.block3 .bottom-block .left-block .ltext { max-width: 535px; width: 100%; float: left; margin-top: 23px; font-family: SFUIDisplay-Light; font-size: 30px; line-height: 34px; color: rgb(0, 0, 0); }
+.block3 .bottom-block .right-block { max-width: 450px; width: 100%; float: left; margin-left: -50px; }
+.block4 { width: 100%; float: left; min-height: 650px; }
+.block4 .title { width: 100%; float: left; margin-top: 15px; font-family: Lora; font-size: 40px; line-height: 44px; color: rgb(35, 31, 32); font-weight: 700; text-align: center; }
+.block4 .left-image { position: relative; max-width: 426px; width: 100%; float: left; margin-left: 60px; margin-top: 105px; }
+.block4 .left-image p { position: absolute; font-size: 14px; max-width: 54px; width: 100%; }
+.block4 .left-image .disease_1 { max-width: 167px; width: 100%; left: 186px; }
+.block4 .left-image .disease_2 { right: 0px; top: 55px; }
+.block4 .left-image .disease_3 { right: 0px; bottom: 172px; }
+.block4 .left-image .disease_4 { right: 58px; bottom: 0px; }
+.block4 .left-image .disease_5 { left: 0px; top: 80px; }
+.block4 .left-image .disease_6 { bottom: 0px; max-width: 190px; width: 100%; }
+.block4 .left-image .disease_7 { right: 0px; bottom: 112px; }
+.block4 .right-block { max-width: 641px; width: 100%; float: left; height: 467px; background: transparent url("form-3.png") no-repeat scroll left top; margin-left: 33px; margin-top: 50px; padding-left: 75px; }
+.block4 .right-block .rtitle { max-width: 345px; width: 100%; float: left; margin-top: 33px; font-family: Lora; font-size: 30px; line-height: 34px; color: rgb(35, 31, 32); font-weight: 700; }
+.block4 .right-block .line { max-width: 340px; width: 100%; float: left; margin-top: 15px; height: 5px; background: rgb(42, 18, 15) none repeat scroll 0% 0%; }
+.symptoms { display: none; }
+.block4 .right-block .rtext { max-width: 535px; width: 100%; float: left; margin-top: 10px; font-family: SFUIDisplay-Light; font-size: 20px; line-height: 24px; color: rgb(0, 0, 0); }
+.block4 .right-block .rtext .bold { font-family: SFUIDisplay-Bold; }
+.block5 { width: 100%; float: left; min-height: 1540px; }
+.block5 .title { width: 100%; float: left; margin-top: 20px; font-family: Lora; font-size: 40px; line-height: 44px; color: rgb(35, 31, 32); font-weight: 700; text-align: center; }
+.block5 .text-block { width: 100%; float: left; margin-top: 50px; height: 158px; background: transparent linear-gradient(130deg, rgb(165, 205, 57) 65%, rgb(187, 220, 96) 65%) repeat scroll 0% 0%; border-radius: 3px; }
+.block5 .text-block .timage { max-width: 195px; width: 100%; float: left; }
+.block5 .text-block .timage .product { max-width: 176px; width: 100%; float: left; margin-top: -41px; margin-left: 18px; }
+.block5 .text-block .timage .product img { max-width: 106px; width: 100%; }
+.block5 .text-block .timage .label { max-width: 80px; width: 100%; height: 80px; float: left; margin-left: -190px; margin-top: 135px; background: rgb(239, 22, 80) none repeat scroll 0% 0%; text-align: center; border-radius: 90px; }
+.block5 .text-block .timage .label .ltext { width: 100%; float: left; margin-top: 10px; font-family: SFUIDisplay-Bold; font-size: 10px; line-height: 14px; color: rgb(255, 255, 255); }
+.block5 .text-block .timage .label .ltext .big { font-size: 31px; line-height: 31px; display: block; font-family: SFUIDisplay-Heavy; }
+.block5 .text-block .central-text { max-width: 525px; width: 100%; float: left; margin-left: 45px; font-family: Lora; font-size: 30px; line-height: 34px; color: rgb(35, 31, 32); font-weight: 700; margin-top: 28px; }
+.block5 .text-block .price-block { max-width: 325px; width: 100%; float: left; margin-left: 50px; margin-top: 38px; }
+.block5 .text-block .price-block .price { width: 50%; float: left; padding-left: 12px; }
+.block5 .text-block .price-block .price .ptext { width: 100%; float: left; font-family: SFUIDisplay-Light; font-size: 19px; line-height: 25px; color: rgb(23, 27, 38); }
+.block5 .text-block .price-block .price .value { width: 100%; float: left; font-family: SFUIDisplay-Thin; font-size: 31px; line-height: 34px; color: rgb(23, 27, 38); }
+.block5 .text-block .price-block .old .value { background: transparent url("crossline.png") no-repeat scroll left top; }
+.block5 .text-block .price-block .new .value { font-family: SFUIDisplay-Heavy; color: rgb(239, 22, 80); }
+.block5 .text-block .price-block .button-block { width: 100%; float: left; margin-top: 17px; }
+.block5 .text-block .price-block .button-block button { width: 100%; float: left; height: 56px; border: medium none; outline: 0px none; background: rgb(239, 22, 80) none repeat scroll 0% 0%; border-radius: 5px; font-family: "Open Sans"; font-size: 16px; line-height: 52px; color: rgb(255, 255, 255); font-weight: 700; box-shadow: 0px 4px 0px 0px rgb(184, 10, 57); text-transform: uppercase; }
+.block5 .text-block .price-block .button-block button:hover { box-shadow: 0px 2px 0px 0px rgb(184, 10, 57); margin-top: 2px; }
+.block5 .text-block .price-block .button-block button:active { box-shadow: none; margin-top: 4px; }
+.block5 .title2 { margin-top: 70px; }
+.block5 .item-block { width: 100%; float: left; margin-top: 55px; }
+.block5 .item-block .item { max-width: 381px; width: 100%; float: left; margin-left: 8px; }
+.block5 .item-block .item .iimage { width: 100%; float: left; }
+.block5 .item-block .item .itext { width: 100%; float: left; margin-top: 18px; font-family: Lora; font-size: 20px; line-height: 24px; color: rgb(35, 31, 32); padding-right: 15px; }
+.block5 .item-block .item .itext .bold { font-weight: 700; }
+.block5 .item-block .item:nth-child(1) { margin-left: 0px; }
+.block5 .title3 { margin-top: 35px; padding: 0px 120px; }
+.block5 .bottom-block { width: 100%; float: left; }
+.block5 .bottom-block .left-text { max-width: 640px; width: 100%; float: left; height: 278px; background: transparent url("form-4.png") no-repeat scroll left top; padding-left: 28px; margin-top: 60px; }
+.block5 .bottom-block .left-text .ltitle { max-width: 435px; width: 100%; float: left; margin-top: 33px; font-family: Lora; font-size: 30px; line-height: 34px; color: rgb(35, 31, 32); font-weight: 700; }
+.block5 .bottom-block .left-text .line { max-width: 270px; width: 100%; float: left; margin-top: 18px; height: 5px; background: rgb(42, 18, 15) none repeat scroll 0% 0%; }
+.block5 .bottom-block .left-text .ltext { max-width: 470px; width: 100%; float: left; margin-top: 10px; font-family: SFUIDisplay-Light; font-size: 20px; line-height: 24px; color: rgb(0, 0, 0); }
+.block5 .bottom-block .right-image { max-width: 367px; width: 100%; float: left; margin-top: 15px; margin-left: 75px; }
+.block6 { width: 100%; float: left; min-height: 1020px; background: transparent url("block6.jpg") no-repeat scroll center top 240px; }
+.block6 .title { width: 100%; float: left; margin-top: 20px; font-family: Lora; font-size: 60px; line-height: 64px; color: rgb(35, 31, 32); font-weight: 700; text-align: center; padding: 0px 100px; }
+.block6 .left-block { max-width: 419px; width: 100%; float: left; margin-top: 67px; }
+.block6 .left-block .product { max-width: 100%; width: 100%; float: left; margin-left: 10px; text-align: center; }
+.block6 .left-block .product img { max-width: 226px; width: 100%; }
+.block6 .left-block .label { max-width: 159px; width: 100%; height: 159px; float: left; margin-left: -353px; margin-top: 365px; background: rgb(239, 22, 80) none repeat scroll 0% 0%; text-align: center; border-radius: 90px; }
+.block6 .left-block .label .ltext { width: 100%; float: left; margin-top: 25px; font-family: SFUIDisplay-Bold; font-size: 20px; line-height: 24px; color: rgb(255, 255, 255); }
+.block6 .left-block .label .ltext .big { font-size: 61px; line-height: 61px; display: block; font-family: SFUIDisplay-Heavy; }
+.block6 .right-block { max-width: 741px; width: 100%; float: left; margin-top: 60px; }
+.block6 .right-block .line { width: 100%; float: left; margin-top: 20px; padding-left: 70px; background: transparent url("icon-check.png") no-repeat scroll left top; font-family: Lora; font-size: 20px; line-height: 24px; color: rgb(35, 31, 32); }
+.block6 .right-block .line .bold { font-weight: 700; }
+.block6 .right-block .line:nth-child(1) { padding-right: 240px; }
+button, select { width: 100%; float: left; outline: 0px none; height: 49px; background: transparent none repeat scroll 0px 0px; border: 1px solid rgb(0, 0, 0); border-radius: 5px; font-family: Arial; color: rgb(78, 77, 81); padding: 0px 20px; font-size: 17px; line-height: 49px; }
+.block6 .right-block .line:nth-child(3) { padding-right: 30px; }
+.block6 .right-block .line:nth-child(4) { padding-right: 120px; }
+.block6 .right-block .bottom-line { width: 100%; float: left; margin-top: 42px; }
+.block6 .right-block .bottom-line .price-block { max-width: 310px; width: 100%; float: left; margin-left: 70px; }
+.block6 .right-block .bottom-line .price-block .price { width: 50%; float: left; }
+.block6 .right-block .bottom-line .price-block .price .ptext { width: 100%; float: left; font-family: SFUIDisplay-Light; font-size: 19px; line-height: 25px; color: rgb(23, 27, 38); }
+.block6 .right-block .bottom-line .price-block .price .value { width: 100%; float: left; font-family: SFUIDisplay-Thin; font-size: 31px; line-height: 34px; color: rgb(23, 27, 38); }
+.block6 .right-block .bottom-line .price-block .old .value { background: transparent url("crossline.png") no-repeat scroll left top; }
+.block6 .right-block .bottom-line .price-block .new .value { font-family: SFUIDisplay-Heavy; color: rgb(239, 22, 80); }
+.block6 .right-block .bottom-line .button-block { max-width: 325px; width: 100%; float: left; margin-left: 35px; }
+.block6 .right-block .bottom-line .button-block button { width: 100%; float: left; height: 56px; border: medium none; outline: 0px none; background: rgb(165, 205, 57) none repeat scroll 0% 0%; border-radius: 5px; font-family: "Open Sans"; font-size: 16px; line-height: 52px; color: rgb(255, 255, 255); font-weight: 700; box-shadow: 0px 4px 0px 0px rgb(132, 168, 35); text-transform: uppercase; }
+.block6 .right-block .bottom-line .button-block button:hover { box-shadow: 0px 2px 0px 0px rgb(132, 168, 35); margin-top: 2px; }
+.block6 .right-block .bottom-line .button-block button:active { box-shadow: none; margin-top: 4px; }
+.block6 .bottom-block { width: 100%; float: left; margin-top: 45px; height: 213px; background: rgb(187, 211, 92) none repeat scroll 0% 0%; border-radius: 3px; }
+.block6 .bottom-block .bleft { max-width: 510px; width: 100%; float: left; margin-left: 55px; margin-top: 35px; font-family: Lora; font-size: 60px; line-height: 64px; color: rgb(0, 0, 0); font-weight: 700; }
+.block6 .bottom-block .bright { max-width: 510px; width: 100%; float: left; margin-top: 42px; }
+.block6 .bottom-block .bright .image { width: 100%; float: left; }
+.block6 .bottom-block .bright .image img { vertical-align: middle; }
+.block6 .bottom-block .bright .image .plus { padding: 0px 32px; }
+.block6 .bottom-block .bright .text { width: 100%; float: left; font-family: Lora; font-size: 24px; line-height: 28px; color: rgb(34, 31, 31); font-weight: 700; text-align: center; margin-top: 15px; }
+.block7 { width: 100%; float: left; min-height: 1625px; }
+.block7 .title { width: 100%; float: left; margin-top: 25px; font-family: Lora; font-size: 60px; line-height: 64px; color: rgb(35, 31, 32); font-weight: 700; text-align: center; padding: 0px 100px; }
+.block7 .top-line { width: 100%; float: left; margin-top: 30px; }
+.block7 .top-line .limage { max-width: 175px; width: 100%; float: left; }
+.block7 .top-line .line-block { max-width: 880px; width: 100%; float: left; margin-top: 28px; }
+.block7 .top-line .line-block .line { float: left; margin-left: 10px; margin-top: 10px; padding: 7px 10px; background: rgb(187, 211, 92) none repeat scroll 0% 0%; border-radius: 3px; font-family: SFUIDisplay-Bold; font-size: 14px; line-height: 14px; color: rgb(0, 0, 0); }
+.block7 .review-block { width: 100%; float: left; margin-top: 22px; padding: 0px 134px; }
+.block7 .review-block .review { width: 100%; float: left; margin-top: 34px; }
+.block7 .review-block .review .text { max-width: 641px; width: 100%; float: left; height: 367px; background: transparent url("form-2.png") no-repeat scroll left top; position: relative; z-index: 2; padding-left: 28px; }
+.block7 .review-block .review .text .ttitle { max-width: 530px; width: 100%; float: left; margin-top: 33px; font-family: Lora; font-size: 30px; line-height: 34px; color: rgb(35, 31, 32); font-weight: 700; }
+.block7 .review-block .review .text .tline { max-width: 270px; width: 100%; float: left; margin-top: 10px; height: 5px; background: rgb(42, 18, 15) none repeat scroll 0% 0%; }
+.block7 .review-block .review .text .ttext { max-width: 535px; width: 100%; float: left; margin-top: 13px; font-family: SFUIDisplay-Light; font-size: 20px; line-height: 24px; color: rgb(0, 0, 0); }
+.block7 .review-block .review .image { max-width: 245px; width: 100%; float: left; }
+.block7 .review-block .review .image .doctor { width: 100%; float: left; text-align: right; }
+.block2 .result_mob { display: none; }
+.block7 .review-block .review .image .position { width: 100%; float: left; margin-top: 25px; padding-left: 35px; font-family: Lora; font-size: 15px; line-height: 19px; color: rgb(0, 0, 0); font-style: italic; }
+.block7 .review-block .review .image .position .name { font-size: 20px; line-height: 24px; font-weight: 700; font-style: normal; display: block; }
+.block7 .review-block .review:nth-child(2) .text { max-width: 647px; width: 100%; background: transparent url("form-6.png") no-repeat scroll left top; padding-left: 80px; }
+.block7 .review-block .review:nth-child(2) .image .doctor { text-align: left; }
+.block7 .review-block .review:nth-child(2) .image .position { padding-left: 15px; }
+.block7 .review-block .review:nth-child(3) .text { height: 404px; background: transparent url("form-5.png") no-repeat scroll left top; }
+.block8 { width: 100%; float: left; }
+.block8 .title { width: 100%; float: left; margin-top: 15px; font-family: Lora; font-size: 60px; line-height: 64px; color: rgb(0, 0, 0); font-weight: 700; text-align: center; }
+.block8 .item-block { width: 100%; float: left; margin-top: 50px; }
+.block8 .item-block .item { max-width: 267px; width: 100%; float: left; margin-left: 22px; }
+.block8 .item-block .item .iimage { width: 100%; float: left; }
+.block8 .item-block .item .ititle { width: 100%; float: left; margin-top: 10px; font-family: Lora; font-size: 20px; line-height: 24px; color: rgb(0, 0, 0); font-weight: 700; min-height: 60px; padding-right: 5px; }
+.block8 .item-block .item .iline { max-width: 155px; width: 100%; float: left; height: 4px; background: rgb(42, 18, 15) none repeat scroll 0% 0%; }
+.block8 .item-block .item .itext { width: 100%; float: left; margin-top: 5px; font-family: Lora; font-size: 16px; line-height: 20px; color: rgb(0, 0, 0); }
+.block8 .item-block .item:nth-child(1) { margin-left: 0px; }
+.block8 .main-component { max-width: 612px; width: 100%; float: left; margin-left: 548px; margin-top: 30px; }
+.block8 .main-component .mtitle { width: 100%; float: left; font-family: Lora; font-size: 40px; line-height: 44px; color: rgb(35, 31, 32); font-weight: 700; }
+.block8 .main-component .mline { max-width: 200px; width: 100%; float: left; margin-top: 13px; height: 4px; background: rgb(42, 18, 15) none repeat scroll 0% 0%; }
+.block8 .main-component .mtext { width: 100%; float: left; margin-top: 15px; font-family: Lora; font-size: 20px; line-height: 24px; color: rgb(0, 0, 0); padding-right: 10px; }
+.block8 .main-component .line-block { width: 100%; float: left; margin-top: 23px; padding-left: 30px; }
+.block8 .main-component .line-block .line { width: 100%; float: left; margin-top: 6px; padding-left: 55px; background: transparent url("icon-check-2.png") no-repeat scroll left top; font-family: Lora; font-size: 20px; line-height: 24px; color: rgb(0, 0, 0); min-height: 30px; }
+.block8 .main-component .bottom-line { width: 100%; float: left; margin-top: 30px; }
+.block8 .main-component .bottom-line .bimage { max-width: 110px; width: 100%; height: 110px; float: left; background: rgb(36, 32, 38) none repeat scroll 0% 0%; border-radius: 90px; font-family: SFUIDisplay-Regular; font-size: 32px; line-height: 110px; color: rgb(255, 255, 255); text-align: center; }
+.block8 .main-component .bottom-line .btext { max-width: 460px; width: 100%; float: left; margin-left: 20px; margin-top: 8px; font-family: SFUIDisplay-Light; font-size: 16px; line-height: 20px; color: rgb(36, 32, 38); }
+.block9 { width: 100%; float: left; min-height: 1320px; }
+.block9 .title { width: 100%; float: left; margin-top: 15px; font-family: Lora; font-size: 60px; line-height: 64px; color: rgb(0, 0, 0); font-weight: 700; text-align: center; }
+.block9 .drugs { position: absolute; left: 105px; top: 21px; }
+.block9 .drugs p { font-size: 14px; padding: 6px 0px; }
+.block9 .treatment { left: 78px; position: absolute; bottom: 15px; }
+.block9 .treatment p { display: inline-block; padding-right: 106px; }
+.block9 .graph { position: relative; }
+.block9 .reviews-block { max-width: 560px; width: 100%; float: left; margin-top: 45px; }
+.block9 .reviews-block .review { width: 100%; float: left; display: none; }
+.block9 .reviews-block .review .rtop { width: 100%; float: left; }
+.block9 .reviews-block .review .rtop .timage { max-width: 180px; width: 100%; float: left; }
+.block9 .reviews-block .review .rtop .tabout { max-width: 250px; width: 100%; float: left; margin-top: 15px; }
+.block9 .reviews-block .review .rtop .tabout .person { width: 100%; float: left; font-family: Lora; font-size: 15px; line-height: 19px; color: rgb(0, 0, 0); font-style: italic; }
+.block9 .reviews-block .review .rtop .tabout .person .name { display: block; line-height: 20px; font-weight: 700; font-style: normal; }
+.block9 .reviews-block .review .rtop .tabout .info { width: 100%; float: left; font-family: SFUIDisplay-Regular; font-size: 15px; line-height: 19px; color: rgb(0, 0, 0); margin-top: 15px; }
+.block9 .reviews-block .review .rtop .tabout .info .textline { font-family: SFUIDisplay-Bold; margin-bottom: 2px; display: block; }
+.block9 .reviews-block .review .rtext { width: 100%; float: left; margin-top: 20px; font-family: SFUIDisplay-Light; font-size: 15px; line-height: 22px; color: rgb(36, 32, 38); }
+.block9 .reviews-block .review:nth-child(1) { display: block; }
+.block9 .image-block { max-width: 562px; width: 100%; float: left; margin-left: 38px; margin-top: 45px; }
+.block9 .image-block .graph { width: 100%; float: left; }
+.block9 .image-block .stext { width: 100%; float: left; margin-top: 20px; font-family: SFUIDisplay-Light; font-size: 15px; line-height: 19px; color: rgb(36, 32, 38); text-align: center; padding-left: 47px; }
+.block9 .text-block { width: 100%; float: left; margin-top: 90px; height: 158px; background: transparent linear-gradient(130deg, rgb(165, 205, 57) 65%, rgb(187, 220, 96) 65%) repeat scroll 0% 0%; border-radius: 3px; }
+.block9 .text-block .timage { max-width: 195px; width: 100%; float: left; }
+.block9 .text-block .timage .product { max-width: 176px; width: 100%; float: left; margin-top: -53px; }
+.block9 .text-block .timage .product img { max-width: 115px; width: 100%; }
+.block9 .text-block .timage .label { max-width: 80px; width: 100%; height: 80px; float: left; margin-left: -172px; margin-top: 135px; background: rgb(239, 22, 80) none repeat scroll 0% 0%; text-align: center; border-radius: 90px; }
+.block9 .text-block .timage .label .ltext { width: 100%; float: left; margin-top: 10px; font-family: SFUIDisplay-Bold; font-size: 10px; line-height: 14px; color: rgb(255, 255, 255); }
+.block9 .text-block .timage .label .ltext .big { font-size: 31px; line-height: 31px; display: block; font-family: SFUIDisplay-Heavy; }
+.block9 .text-block .central-text { max-width: 525px; width: 100%; float: left; margin-left: 45px; font-family: Lora; font-size: 28px; line-height: 34px; color: rgb(35, 31, 32); font-weight: 700; margin-top: 28px; }
+.block9 .text-block .price-block { max-width: 325px; width: 100%; float: left; margin-left: 50px; margin-top: 38px; }
+.block9 .text-block .price-block .price { width: 50%; float: left; padding-left: 12px; }
+.block9 .text-block .price-block .price .ptext { width: 100%; float: left; font-family: SFUIDisplay-Light; font-size: 19px; line-height: 25px; color: rgb(23, 27, 38); }
+.block9 .text-block .price-block .price .value { width: 100%; float: left; font-family: SFUIDisplay-Thin; font-size: 31px; line-height: 34px; color: rgb(23, 27, 38); }
+.block9 .text-block .price-block .old .value { background: transparent url("crossline.png") no-repeat scroll left top; }
+.block9 .text-block .price-block .new .value { font-family: SFUIDisplay-Heavy; color: rgb(239, 22, 80); }
+.block9 .text-block .price-block .button-block { width: 100%; float: left; margin-top: 17px; }
+.block9 .text-block .price-block .button-block button { width: 100%; float: left; height: 56px; border: medium none; outline: 0px none; background: rgb(239, 22, 80) none repeat scroll 0% 0%; border-radius: 5px; font-family: "Open Sans"; font-size: 16px; line-height: 52px; color: rgb(255, 255, 255); font-weight: 700; box-shadow: 0px 4px 0px 0px rgb(184, 10, 57); text-transform: uppercase; }
+.block9 .text-block .price-block .button-block button:hover { box-shadow: 0px 2px 0px 0px rgb(184, 10, 57); margin-top: 2px; }
+.block9 .text-block .price-block .button-block button:active { box-shadow: none; margin-top: 4px; }
+.block9 .title2 { margin-top: 70px; }
+.block9 .bottom-page { width: 100%; float: left; text-align: center; position: relative; top: 45px; }
+.block9 .bottom-page .slider-point { max-width: 26px; width: 100%; height: 26px; border-radius: 13px; display: inline-block; margin: 0px 3px; background: rgb(150, 150, 150) none repeat scroll 0% 0%; cursor: pointer; }
+.block9 .bottom-page .slider-point.active { background: rgb(186, 210, 92) none repeat scroll 0% 0%; }
+.block9 .item-block { width: 100%; float: left; margin-top: 48px; }
+.block9 .item-block .item { width: 33%; float: left; }
+.block9 .item-block .item .iimage { width: 100%; float: left; text-align: center; height: 245px; }
+.block9 .item-block .item .itext { width: 100%; float: left; text-align: center; font-family: Lora; font-size: 20px; line-height: 24px; color: rgb(0, 0, 0); font-weight: 700; padding: 0px 10px; }
+.review_mob { display: none; }
+.block9 .item-block .item:nth-child(4) .iimage { padding-top: 25px; }
+.block10 { width: 100%; float: left; min-height: 725px; background: transparent url("block1.png") no-repeat scroll center top 45px; margin-top: 50px; }
+.block10 .title { width: 100%; float: left; margin-top: 25px; font-family: Lora; font-size: 40px; line-height: 44px; font-weight: 700; color: rgb(35, 31, 32); text-align: center; padding: 0px 145px 10px; background: url("line-2.png") no-repeat scroll left 280px bottom 3px, transparent url("line-1.png") no-repeat scroll right 170px top 44px; }
+.block10 .left-block { max-width: 410px; width: 100%; float: left; margin-top: 25px; }
+.block10 .left-block .item-block { width: 100%; float: left; }
+.block10 .left-block .item-block .item { width: 100%; float: left; margin-top: 35px; padding-left: 70px; background: transparent url("icon-4.png") no-repeat scroll left top; font-family: Lora; font-size: 20px; line-height: 24px; color: rgb(35, 31, 32); }
+.block10 .left-block .item-block .item .bold { font-weight: 700; }
+.block10 .left-block .item-block .item:nth-child(4) { margin-top: 15px; }
+.block10 .left-block .item-block .sertificate { max-width: 265px; width: 100%; float: left; margin-top: 75px; margin-left: 35px; padding-left: 35px; background: transparent url("icon-5.png") no-repeat scroll left top; font-family: SFUIDisplay-Bold; font-size: 12px; line-height: 17px; color: rgb(35, 31, 32); }
+.block10 .central-block { max-width: 390px; width: 100%; float: left; }
+.block10 .central-block .product { max-width: 346px; width: 100%; float: left; margin-left: -10px; margin-top: 40px; text-align: center; }
+.block10 .central-block .product img { max-width: 246px; width: 100%; }
+.itext ul { margin: 0px; padding-left: 20px; }
+.mob_left_text { display: none; }
+.sertificats { text-align: center; margin-bottom: 20px; margin-top: 40px; }
+.sertificat-wrap { display: inline-block; margin-left: 20px; font-size: 1px; line-height: 1px; vertical-align: top; box-shadow: 0px 0px 20px 9px rgba(66, 41, 25, 0.1); }
+.block10 .right-block { max-width: 360px; width: 100%; float: left; }
+.block9_mob { display: none; }
+.block10 .right-block .form-block { width: 100%; float: left; margin-top: 45px; height: auto; border-radius: 5px; border: 4px solid rgb(165, 205, 57); padding: 0px 15px 20px; }
+.block10 .right-block .form-block .rtitle { width: 100%; float: left; margin-top: 22px; font-family: Lora; font-size: 25px; line-height: 29px; color: rgb(35, 31, 32); text-align: center; }
+.block10 .right-block .form-block .timer { width: 100%; float: left; margin-top: 15px; background: rgb(21, 40, 56) none repeat scroll 0% 0%; height: 46px; border-radius: 3px; }
+.block10 .right-block .form-block .timer .timer-text { max-width: 185px; width: 100%; float: left; font-family: SFUIDisplay-Light; font-size: 14px; line-height: 46px; color: rgb(255, 255, 255); text-align: center; margin-left: 34px; }
+.block10 .right-block .form-block .timer .timer-block { max-width: 96px; width: 100%; float: left; font-family: SFUIDisplay-Bold; font-size: 20px; line-height: 46px; color: rgb(255, 255, 255); }
+.block10 .right-block .form-block .timer .timer-block .item { float: left; }
+.block10 .right-block .form-block .timer .timer-block .delimiter { float: left; }
+.block10 .right-block .form-block .price-block { width: 100%; float: left; margin-top: 15px; }
+.block10 .right-block .form-block .price-block .price { width: 50%; float: left; }
+.block10 .right-block .form-block .price-block .price .ptext { width: 100%; float: left; font-family: SFUIDisplay-Light; font-size: 19px; line-height: 25px; color: rgb(23, 27, 38); }
+.block10 .right-block .form-block .price-block .price .value { width: 100%; float: left; font-family: SFUIDisplay-Thin; font-size: 31px; line-height: 34px; color: rgb(23, 27, 38); }
+.block10 .right-block .form-block .price-block .old .value { background: transparent url("crossline.png") no-repeat scroll left top; }
+.block10 .right-block .form-block .price-block .new .value { font-family: SFUIDisplay-Heavy; color: rgb(239, 22, 80); }
+.block10 .right-block .form-block .form { width: 100%; float: left; margin-top: 10px; }
+.block10 .right-block .form-block .form .inp-line { width: 100%; float: left; margin-top: 7px; }
+.block10 .right-block .form-block .form .inp-line input { width: 100%; float: left; outline: 0px none; height: 49px; background: transparent none repeat scroll 0px 0px; border: 1px solid rgb(0, 0, 0); border-radius: 5px; font-family: Arial; color: rgb(78, 77, 81); padding: 0px 20px 0px 58px; font-size: 17px; line-height: 49px; }
+.block10 .right-block .form-block .form .inp-name { background: transparent url("icon-name.png") no-repeat scroll left 19px center; }
+.block10 .right-block .form-block .form .inp-phone { background: transparent url("icon-phone.png") no-repeat scroll left 19px center; }
+.block10 .right-block .form-block .form .inp-email { background: transparent url("icon-email.png") no-repeat scroll left 19px center; }
+.block10 .right-block .form-block .form .button-block { width: 100%; float: left; margin-top: 7px; }
+.block10 .right-block .form-block .form .button-block button { width: 100%; float: left; height: 56px; border: medium none; outline: 0px none; background: rgb(165, 205, 57) none repeat scroll 0% 0%; border-radius: 5px; font-family: "Open Sans"; font-size: 16px; line-height: 52px; color: rgb(255, 255, 255); font-weight: 700; box-shadow: 0px 4px 0px 0px rgb(132, 168, 35); text-transform: uppercase; }
+.block10 .right-block .form-block .form .button-block button:hover { box-shadow: 0px 2px 0px 0px rgb(132, 168, 35); margin-top: 2px; }
+.block10 .right-block .form-block .form .button-block button:active { box-shadow: none; margin-top: 4px; }
+.block10 .right-block .textline { width: 100%; float: left; margin-top: 33px; padding-left: 55px; font-family: SFUIDisplay-Bold; font-size: 12px; line-height: 23px; color: rgb(35, 31, 32); text-transform: uppercase; background: transparent url("icon-lock.png") no-repeat scroll left 22px center; }
+footer { width: 100%; float: left; min-height: 315px; background: rgb(21, 40, 56) none repeat scroll 0% 0%; color: rgb(255, 255, 255); }
+footer .column { float: left; margin-top: 55px; }
+footer .column .ctitle { width: 100%; float: left; font-family: SFUIDisplay-Light; font-size: 18px; line-height: 20px; text-transform: uppercase; padding-bottom: 20px; }
+footer .column .line { width: 100%; float: left; margin-top: 17px; font-family: SFUIDisplay-Light; font-size: 13px; line-height: 17px; }
+footer .column:nth-of-type(1) { max-width: 410px; width: 100%; margin-left: 25px; }
+footer .column:nth-of-type(1) .line { padding-left: 60px; }
+footer .column:nth-of-type(1) .line-1 { max-width: 240px; width: 100%; min-height: 37px; background: transparent url("icon-6.png") no-repeat scroll left top; }
+footer .column:nth-of-type(1) .line-2 { background: transparent url("icon-7.png") no-repeat scroll left top; }
+footer .column:nth-of-type(1) .line-3 { background: transparent url("icon-8.png") no-repeat scroll left top; }
+footer .column:nth-of-type(3) { max-width: 300px; width: 100%; margin-left: 70px; }
+footer .column:nth-of-type(3) .logo { width: 100%; float: left; padding-bottom: 7px; }
+footer .column:nth-of-type(3) .line-address { margin-top: 32px; padding-right: 80px; }
+footer .column:nth-of-type(2) { max-width: 275px; width: 100%; margin-left: 80px; margin-top: 113px; }
+footer .column:nth-of-type(2) .line { margin-top: 7px; }
+footer .column:nth-of-type(2) .line img { position: relative; top: 5px; left: 5px; }
+footer .column:nth-of-type(2) .line-manager { margin-top: 15px; }
+.hidden-conf { display: none; }
+.conf-overlay { position: fixed; width: 100%; height: 100%; top: 0px; left: 0px; z-index: 9999; background: rgb(0, 0, 0) none repeat scroll 0% 0%; cursor: pointer; opacity: 0.9; }
+.conf-info { cursor: default; max-width: 800px; width: 100%; padding: 30px; color: rgb(0, 0, 0); z-index: 9999; text-align: left; background: rgb(255, 255, 255) none repeat scroll 0% 0%; border-radius: 6px; position: fixed; top: 8%; left: 50%; margin: 0px 0px 0px -420px; }
+.conf-info .conf-head { font: 30px/30px arial,sans-serif; margin: 0px 0px 16px; }
+.conf-info h5 { font: 700 18px/18px arial,sans-serif; margin: 16px 0px 6px; }
+.conf-info p { font: 13px/15px arial,sans-serif; margin: 0px 0px 8px; }
+.closeconf-but { position: absolute; top: 20px; right: 20px; height: 29px; max-width: 29px; width: 100%; cursor: pointer; background: transparent url("img_close-conf.png") no-repeat scroll 0% 0%; }
+.hide { display: none; }
+.block1 .mob { display: none; }
+@media all and (max-width: 1176px) {
+  .block1 .left-block { max-width: 33%; }
+  .block1 .central-block { max-width: 33%; }
+  .block1 .right-block { max-width: 33%; }
+  .block3 .title { padding: 0px; }
+  .block2 .test-block .left-block { max-width: 40%; }
+  .block2 .test-block .right-block { max-width: 58%; }
+  .block3 .item-block .item:nth-child(2) { margin-left: 0px; }
+  .block3 .item-block .item { margin-left: 0px; }
+  .block3 .bottom-block .right-block { max-width: 42%; }
+  .block3 .bottom-block .left-block { max-width: 42%; }
+  .block3 .bottom-block .left-block .ltitle { font-size: 33px; }
+  .block3 .bottom-block .left-block .ltext { font-size: 24px; }
+  .block4 .right-block { max-width: 37%; }
+  .block4 .left-image { max-width: 50%; }
+  .block5 .text-block .central-text { max-width: 30%; font-size: 23px; line-height: 26px; margin-top: 12px; }
+  .block5 .text-block .price-block { margin-top: 12px; }
+  .block5 .item-block .item { max-width: 32%; }
+  .block5 .item-block .item .iimage img { width: 100%; }
+  .block5 .bottom-block .right-image img { width: 100%; }
+  .block5 .bottom-block .left-text { max-width: 54%; }
+  .block5 .bottom-block .right-image { max-width: 36%; }
+  .block6 .left-block { max-width: 42%; }
+  .block6 .right-block { max-width: 58%; }
+  .block6 .bottom-block { height: inherit; }
+  .block6 .bottom-block .bright { max-width: 62%; }
+  .block6 .bottom-block .bleft { max-width: 30%; font-size: 37px; }
+  .block7 .review-block .review .text { max-width: 60%; }
+  .block7 .review-block .review .text { background-size: cover; max-width: 60%; height: inherit; }
+  .block7 .review-block .review:nth-child(2) .text { background-size: cover; max-width: 60%; height: inherit; }
+  .block7 .review-block .review:nth-child(3) .text { background-size: cover; max-width: 60%; height: inherit; margin-bottom: 20px; }
+  .block9 .text-block .central-text { max-width: 30%; font-size: 23px; line-height: 26px; margin-top: 12px; }
+  .block9 .text-block .price-block { margin-top: 12px; }
+  .block10 .left-block { max-width: 33%; }
+  .block10 .central-block { max-width: 33%; }
+  .block10 .right-block { max-width: 33%; }
+  .block3 .item-block .item .iimage img { width: 100%; }
+  .block3 .item-block .item { max-width: 33%; }
+  .block3 .item-block .item .ititle { font-size: 23px; }
+  .block3 .bottom-block .left-block { height: inherit; background-size: cover; }
+  .block3 .bottom-block .right-block img { width: 100%; }
+}
+@media all and (max-width: 900px) {
+  .block1 .top-block .item { max-width: 20%; }
+  .block3 .bottom-block .right-block { margin-left: 0px; }
+  .block4 .right-block .rtitle { font-size: 25px; }
+  .block5 .text-block .central-text { max-width: 17%; font-size: 12px; }
+  .block9 .text-block .central-text { max-width: 17%; font-size: 12px; }
+  .block6 .bottom-block .bright { max-width: 68%; }
+  .block6 .bottom-block .bleft { max-width: 18%; font-size: 20px; line-height: 49px; }
+  .block7 .review-block .review .image .doctor img { width: 100%; }
+  .block7 .review-block .review .text { max-width: 50%; }
+  .block7 .review-block .review:nth-child(2) .text { max-width: 50%; height: inherit; background: rgb(233, 231, 231) none repeat scroll 0% 0%; }
+  .block7 .review-block .review:nth-child(3) .text { max-width: 50%; }
+}
+@media all and (max-width: 767px) {
+  .wrapper { padding: 0px 10px; }
+  .block1 .top-block { display: none; }
+  .block1 { background: transparent none repeat scroll 0% 0%; text-align: center; border-bottom: medium none; }
+  .block1 .mob { display: block ! important; }
+  .block1 .left-block { display: none; text-align: left; }
+  .block1 .mob { max-width: 100%; }
+  .block1 .central-block { max-width: 100%; text-align: center; }
+  .block1 .central-block .product { max-width: 100%; }
+  .block1 .right-block { display: inline-block; margin: 0px auto; float: none; max-width: 320px; }
+  .block1 .title { background: transparent none repeat scroll 0% 0%; }
+  .block2 { text-align: center; }
+  .block2 .test-block .title { display: none; }
+  .block2 .test-block .left-block { max-width: 100%; background: transparent none repeat scroll 0% 0%; float: none; padding: 0px; margin-top: 0px; height: inherit; }
+  .block2 .test-block .left-block .button-block { display: none; }
+  .block2 .test-block .right-block { max-width: 100%; }
+  .block2 .test-block .right-block { width: 268px; display: inline-block; float: none; }
+  .slick-dots li button { max-width: 26px; width: 100% ! important; height: 20px ! important; border-radius: 13px; display: inline-block ! important; margin: 0px 3px; background: rgb(150, 150, 150) none repeat scroll 0% 0% ! important; cursor: pointer ! important; color: transparent ! important; }
+  .slick-dots li.slick-active button::before { background: rgb(186, 210, 92) none repeat scroll 0% 0%; color: transparent ! important; }
+  .slick-dots li button::before { max-width: 26px; width: 100% ! important; height: 20px ! important; border-radius: 13px; color: transparent ! important; }
+  .slick-dots li.slick-active button::before { color: transparent ! important; opacity: 1; left: 3px; top: 0px; }
+  .block2 .result_mob { padding: 20px 0px; display: block; }
+  .block2 .result_mob button { width: 100%; height: 63px; border: medium none; outline: 0px none; background: rgb(42, 18, 15) none repeat scroll 0% 0%; border-radius: 3px; font-family: "Open Sans"; font-size: 16px; line-height: 60px; color: rgb(255, 255, 255); font-weight: 700; text-transform: uppercase; }
+  .power { padding: 10px; display: none; max-width: 320px; width: 100%; background: rgb(239, 22, 80) none repeat scroll 0% 0%; margin: 20px 0px; }
+  .power_title { margin: 10px 0px; background: rgb(170, 0, 45) none repeat scroll 0% 0%; padding: 20px; display: inline-block; }
+  .power .button { display: block; margin-top: 10px; }
+  .power .button .btn { display: inline-block; font-weight: bold; }
+  .power .number { font-size: 36px; color: rgb(255, 255, 255); font-weight: bold; }
+  .power .numb_1 { font-size: 14px; color: rgb(255, 255, 255); font-weight: bold; }
+  .power_text p { font-size: 14px; color: rgb(255, 255, 255); font-weight: bold; }
+  .power_text { margin: 10px 0px; text-align: left; }
+  .power .v_1 p { font-weight: bold; font-size: 14px; color: rgb(255, 255, 255); }
+  .power span { margin: 0px 0px 15px; color: rgb(35, 31, 32); font-weight: bold; font-size: 14px; }
+  .power .button .btn { background: rgb(165, 205, 57) none repeat scroll 0% 0%; color: rgb(255, 255, 255); font-size: 18px; text-decoration: none; font-weight: bold; display: inline-block; width: 80%; padding: 10px 0px; border-radius: 5px; }
+  .block3 .title { margin-top: 377px; margin-bottom: 34px; font-size: 36px; }
+  .block3 { background-size: cover; margin-top: -390px; min-height: inherit; }
+  .block3 .subtitle { margin-top: 33px; padding: 0px; font-size: 18px; line-height: inherit; }
+  .block2 { z-index: 1; position: relative; }
+  .block3 .item-block .item .iimage img { max-width: 250px; }
+  .block3 .item-block .item { max-width: 100%; }
+  .block3 .bottom-block .left-block { display: inline-block; max-width: 350px; float: none; background: rgb(255, 255, 255) none repeat scroll 0% 0%; height: 265px; padding: 0px 10px; }
+  .block3 .bottom-block .left-block .ltitle { font-size: 24px; line-height: inherit; }
+  .block4 .title { font-size: 24px; line-height: inherit; }
+  .block4 .left-image img { max-width: 300px; }
+  .block4 .left-image .disease_1 { font-size: 12px; text-align: left; left: 110px; max-width: 106px; }
+  .block4 .left-image .disease_2 { font-size: 12px; text-align: left; right: -8px; top: 38px; }
+  .block4 .left-image .disease_3 { font-size: 12px; text-align: left; bottom: 119px; right: -8px; }
+  .block4 .left-image .disease_4 { font-size: 12px; text-align: left; right: 29px; }
+  .block4 .left-image .disease_5 { font-size: 12px; text-align: left; top: 63px; }
+  .block4 .left-image .disease_6 { font-size: 12px; text-align: left; bottom: -13px; }
+  .block4 .left-image .disease_7 { font-size: 12px; text-align: left; right: -8px; bottom: 77px; }
+  .block3 .bottom-block .left-block .ltext { font-size: 18px; line-height: inherit; }
+  .block3 .bottom-block .right-block { max-width: 350px; display: block; float: none; margin: 0px auto; }
+  .block3 .bottom-block { float: none; margin: 0px 0px 61px; }
+  .block4 .right-block { height: 380px; }
+  .block3 { text-align: center; }
+  .block4 { text-align: center; }
+  .block4 .left-image { display: inline-block; float: none; margin: 20px 0px 0px; max-width: 100%; }
+  .block4 .right-block { float: none; max-width: 100%; }
+  .block4 .right-block { background: transparent none repeat scroll 0% 0%; margin-left: 0px; padding: 0px; }
+  .block4 .right-block .rtitle { float: none; margin: 0px auto; font-size: 24px; line-height: inherit; }
+  .block4 .right-block .line { float: none; display: inline-block; }
+  .block4 .right-block .rtext { display: inline-block; float: none; font-size: 14px; text-align: left; }
+  .block5 { text-align: center; }
+  .block5 .title { float: none; font-size: 24px; line-height: inherit; margin-top: 0px; padding: 0px; }
+  .block5 .item-block .item .itext { font-size: 18px; }
+  .block5 .text-block { float: none; height: 479px; max-width: 450px; width: 100%; margin: 33px auto; }
+  .block5 .text-block .timage { float: none; }
+  .block5 .text-block .central-text { max-width: 100%; font-size: 18px; margin: 10px 0px; }
+  .block5 .text-block .price-block { max-width: 320px; float: none; margin: 0px auto; }
+  .block5 .text-block .timage { margin: 0px auto; }
+  .block5 .text-block .timage .product { margin-top: 20px; }
+  .block5 .text-block .timage .label { margin-top: 164px; }
+  .block5 .item-block .item .iimage img { max-width: 240px; }
+  .block5 .item-block .item { max-width: 100%; }
+  .block5 .item-block { margin-top: 20px; }
+  .block5 .item-block .item { padding: 20px 0px; }
+  .block5 .left-text { display: none; }
+  .block5 .mob_left_text { display: block ! important; }
+  .block5 .bottom-block .right-image img { max-width: 240px; }
+  .block5 .bottom-block .right-image { float: none; max-width: 100%; margin-left: 0px; }
+  .block5 .bottom-block .left-text { max-width: 100%; float: none; background: transparent none repeat scroll 0% 0%; height: inherit; padding-left: 0px; }
+  .block5 .bottom-block .left-text .line { float: none; margin: 0px auto; }
+  .block5 .bottom-block .left-text .ltitle { float: none; }
+  .block5 .bottom-block .left-text .ltitle { display: inline-block; margin-top: 0px; }
+  .block5 .bottom-block .left-text .ltext { display: inline-block; float: none; font-size: 14px; text-align: left; }
+  .block6 .title { font-size: 24px; padding: 0px; line-height: inherit; }
+  .block6 { text-align: center; }
+  .block6 .left-block { float: none; display: inline-block; max-width: 67%; }
+  .block6 .right-block { max-width: 100%; }
+  .block6 .right-block .line:nth-child(1) { padding: 10px 73px; }
+  .block6 .left-block .label { margin-left: 43%; margin-top: -137%; max-width: 107px; height: 107px; z-index: 11; position: relative; }
+  .block6 .left-block .label .ltext { font-size: 14px; line-height: 8px; margin-top: 13px; }
+  .block6 .right-block .line:nth-child(1) { text-align: left; padding: 0px 0px 10px 50px; font-size: 14px; line-height: inherit; }
+  .block6 .right-block .line { text-align: left; padding: 0px 0px 10px 50px; font-size: 14px; line-height: inherit; }
+  .block6 .right-block .bottom-line .price-block { margin-left: 0px; max-width: 320px; }
+  .block6 .left-block .label .ltext .big { font-size: 46px; }
+  .block6 .right-block .bottom-line .button-block { float: none; margin-left: 0px; }
+  .block6 .right-block .bottom-line { width: auto; float: none; display: inline-block; }
+  .block6 .bottom-block .bleft { max-width: 100%; float: none; margin-left: 0px; font-size: 24px; }
+  .block6 .bottom-block .bright { max-width: 100%; }
+  .block6 .bottom-block .bright .image { float: none; }
+  .block6 .bottom-block .bright .image img { vertical-align: middle; display: block; margin: 0px auto; padding: 20px 0px; }
+  .block6 .bottom-block .bleft { line-height: inherit; }
+  .block6 .bottom-block .bright .text { padding-bottom: 30px; }
+  .block6 .bottom-block .bright { margin-top: 10px; }
+  .block7 .review-block .review .text { max-width: 100%; }
+  .review_mob { display: block ! important; }
+  .review-block { display: none; }
+  .block7 .review-block .review:nth-child(2) .text { max-width: 100%; }
+  .block7 .review-block .review:nth-child(3) .text { max-width: 100%; }
+  .block7 .title { font-size: 24px; padding: 0px; line-height: inherit; }
+  .block7 .review-block .review .image .position .name { font-size: 18px; line-height: inherit; }
+  .block7 .review-block .review .text .ttext { font-size: 14px; line-height: inherit; text-align: left; }
+  .block7 .review-block .review .text .ttitle { font-size: 24px; line-height: inherit; }
+  .block7 { text-align: center; float: none; }
+  .block7 .review-block .review .image { display: inline-block; float: none; }
+  .block7 .review-block .review .text { padding-left: 0px; background: transparent none repeat scroll 0% 0%; }
+  .block7 .review-block .review .text .tline { max-width: 553px; }
+  .block7 .review-block .review .image .position { padding-left: 0px; }
+  .block7 .review-block .review:nth-child(2) .image .position { padding-left: 0px; }
+  .block7 .review-block .review:nth-child(2) .text { padding-left: 0px; background: transparent none repeat scroll 0% 0%; }
+  .block7 .review-block .review:nth-child(3) .text { padding-left: 0px; background: transparent none repeat scroll 0% 0%; }
+  .block7 .review-block { padding: 0px; }
+  .block7 .review-block .review .text { padding-left: 0px; background: transparent none repeat scroll 0% 0%; display: inline-block; float: none; width: auto; }
+  .block7 .review-block .review .text .ttitle { float: none; }
+  .block7 .review-block .review:nth-child(2) .text { padding-left: 0px; background: transparent none repeat scroll 0% 0%; display: inline-block; float: none; width: auto; }
+  .sertificats { display: none; }
+  .block8 .item-block .item { float: none; }
+  .block8 .title { font-size: 30px; line-height: inherit; margin-top: 30px; }
+  .block8 .item-block .item:nth-child(1) { margin: 0px auto; }
+  .block9 .title { font-size: 24px; line-height: inherit; }
+  .block8 .item-block .item { margin: 0px auto; }
+  .block9 .drugs { position: absolute; left: 49px; top: 12px; text-align: left; width: 50px; }
+  .block9 .treatment { font-size: 14px; left: 40px; bottom: 10px; }
+  .block9 .treatment p { padding-right: 26px; }
+  .block9 .graph img { max-width: 320px; margin-left: -14px; }
+  .block9 .drugs p { padding: 0px; }
+  .block8 .item-block .item .iimage { float: none; }
+  .block9 .reviews-block .review .rtop .timage { float: none; margin: 0px auto; }
+  .block9 .reviews-block .review .rtop .tabout .person { text-align: center; }
+  .block9 .reviews-block .review .rtop .tabout { margin: 15px auto; float: none; text-align: left; max-width: 100%; }
+  .block9 .item-block { margin-top: 10px; }
+  .block8 .item-block .item .iimage img { display: inline-block; }
+  .block8 .item-block .item .ititle { text-align: left; float: none; }
+  .block8 .item-block .item .iline { float: none; }
+  .block8 .item-block .item .itext { text-align: left; float: left; }
+  .block8 .item-block .item { display: inline-block; }
+  .block8 .item-block { text-align: center; width: 267px; float: none; display: inline-block; }
+  .block8 { text-align: center; }
+  .block9_destop { display: none; }
+  .block9_mob { display: block; }
+  .block9 { text-align: center; }
+  .block9 .reviews-block { float: none; margin: 45px auto 0px; }
+  .block9 .reviews-block .review .rtext { text-align: left; }
+  .block9 .text-block { float: none; height: 479px; max-width: 450px; width: 100%; margin: 90px auto 35px; }
+  .block9 .text-block .timage { margin: 0px auto; }
+  .block9 .text-block .timage .product { margin-top: 20px; }
+  .block9 .text-block .timage .label { margin-top: 164px; }
+  .block9 .text-block .central-text { max-width: 100%; font-size: 18px; margin: 10px 0px; }
+  .block9 .text-block .price-block { max-width: 320px; float: none; margin: 0px auto; }
+  .block9 .image-block { float: none; margin-left: 0px; }
+  .block9 .reviews-block .review { float: none; }
+  .block9 .reviews-block .review .rtext { float: none; }
+  .block9 .text-block .timage { float: none; }
+  .block9 .title2 { margin-top: 0px; }
+  .block9 .item-block .item { float: none; }
+  .block9 .item-block .item { width: inherit; }
+  .block10 { background: transparent none repeat scroll 0% 0%; text-align: center; border-bottom: medium none; }
+  .block10 .top-block { display: none; }
+  .block10 .title { background: transparent none repeat scroll 0% 0%; font-size: 24px; line-height: inherit; padding: 0px; }
+  .block10 .left-block { text-align: left; max-width: 100%; }
+  .block10 .left-block .item-block .item { font-size: 14px; line-height: 24px; margin-top: 10px; }
+  .block10 .central-block .product { margin-left: 0px; }
+  .block10 .central-block { max-width: 100%; text-align: center; }
+  .block10 .central-block .product { max-width: 100%; }
+  .block10 .right-block { display: inline-block; max-width: 320px; margin: 0px auto; float: none; }
+  .block10 .left-block { text-align: left; }
+  .block1 .title { float: none; padding: 0px; font-size: 18px; margin-top: 20px; line-height: 1; }
+  .block1 .central-block .product img { max-width: 200px; }
+  .block1 .central-block .label { max-width: 107px; height: 107px; margin-left: -111px; }
+  .block1 .central-block .label .ltext .big { font-size: 46px; }
+  .block1 .central-block .label .ltext { font-size: 14px; line-height: 8px; margin-top: 13px; }
+  .block1 .central-block { margin-top: 12px; }
+  .block1 .left-block .item-block .item { font-size: 14px; margin-top: 10px; }
+  .block2 .test-block .left-block .ltitle { font-size: 24px; float: none; }
+  .block2 .test-block .left-block .ltext { font-size: 14px; line-height: 1; text-align: left; float: none; }
+  .symptoms { font-size: 18px; font-weight: bold; display: block; margin: 15px 0px -16px; }
+  .block2 .test-block .left-block .button-block { float: none; }
+  .block2 .test-block .left-block .button-block button { float: none; }
+  .block3 .title { line-height: 1; }
+  .block3 .item-block .ibtitle .big { font-size: 36px; line-height: inherit; }
+  .block3 .item-block .ibtitle { font-size: 18px; line-height: inherit; }
+  .block3 .item-block .item .ititle { font-size: 18px; float: none; }
+  .block3 .item-block .item .itext { text-align: left; }
+  .block1 .right-block .form-block .timer .timer-block { margin: 0px auto; display: block; float: none; width: 105px; }
+  .block1 .right-block .form-block .timer .timer-text { display: none; }
+  .block10 .right-block .form-block .timer .timer-block { margin: 0px auto; display: block; float: none; width: 105px; }
+  .block10 .right-block .form-block .timer .timer-text { display: none; }
+  .block1 .right-block .form-block .price-block .old .value { background: transparent url("crossline.png") no-repeat scroll 25px top; }
+  .block5 .text-block .price-block .old .value { background: transparent url("crossline.png") no-repeat scroll 25px top; }
+  .block6 .right-block .bottom-line .price-block .old .value { background: transparent url("crossline.png") no-repeat scroll 25px top; }
+  .block9 .text-block .price-block .old .value { background: transparent url("crossline.png") no-repeat scroll 25px top; }
+  .block10 .right-block .form-block .price-block .old .value { background: transparent url("crossline.png") no-repeat scroll 25px top; }
+  .block9 .image-block .stext { padding-left: 0px; padding-bottom: 16px; }
+}
+@media all and (max-width: 500px) {
+  body { overflow-x: hidden; }
+  .block9 .drugs { left: 29%; }
+  .block9 .treatment { left: 29%; }
+  .wrapper { overflow: unset; }
+  .block4 { margin-bottom: 50px; }
+  .block3 .title { font-size: 26px; }
+}
+@media all and (max-width: 400px) {
+  .block9 .drugs { left: 24%; }
+  .block9 .treatment { left: 23%; }
+}
+@media all and (max-width: 360px) {
+  .block9 .drugs { left: 19%; }
+  .block9 .treatment { left: 18%; }
+}
+@media all and (max-width: 338px) {
+  .block9 .treatment { left: 13%; }
+  .block6 .left-block .label { margin-top: -148%; }
+}
